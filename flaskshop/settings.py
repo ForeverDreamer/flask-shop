@@ -7,8 +7,8 @@ from pathlib import Path
 class DBConfig:
     db_type = os.getenv("DB_TYPE", "mysql")
     user = os.getenv("DB_USER", "root")
-    passwd = os.getenv("DB_PASSWD", "123456")
-    host = os.getenv("DB_HOST", "127.0.0.1")
+    passwd = os.getenv("DB_PASSWD", "my-secret-pw")
+    host = os.getenv("DB_HOST", "192.168.116.128")
     port = os.getenv("DB_PORT", 3306)
     db_name = os.getenv("DB_NAME", "flaskshop")
     if db_type == "postgresql":
@@ -17,8 +17,8 @@ class DBConfig:
         db_uri = (
             f"mysql+pymysql://{user}:{passwd}@{host}:{port}/{db_name}?charset=utf8mb4"
         )
-    redis_uri = "redis://localhost:6379"
-    esearch_uri = "localhost"
+    redis_uri = "redis://192.168.116.128:6379"
+    esearch_uri = "192.168.116.128"
 
 
 class Config:
@@ -74,7 +74,7 @@ class Config:
     )
     BABEL_CURRENCY = os.getenv("BABEL_CURRENCY", "USD")
 
-    MAIL_SERVER = os.getenv("MAIL_SERVER", "localhost")
+    MAIL_SERVER = os.getenv("MAIL_SERVER", "192.168.116.128")
     MAIL_PORT = os.getenv("MAIL_PORT", 25)
     MAIL_TLS = os.getenv("MAIL_TLS", False)
     MAIL_USERNAME = os.getenv("MAIL_USERNAME", "")

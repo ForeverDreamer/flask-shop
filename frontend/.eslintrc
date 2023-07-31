@@ -12,7 +12,8 @@
     "no-confusing-arrow": 0,
     "no-underscore-dangle": 0,
     "no-console": "off",
-    "func-names": "off"
+    "func-names": "off",
+    "linebreak-style": 0
   },
   "env": {
     "browser": true,
