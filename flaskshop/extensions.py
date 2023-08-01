@@ -28,7 +28,7 @@ babel = Babel()
 def get_locale():
     if request.args.get("lang"):
         session["lang"] = request.args.get("lang")
-    return session.get("lang", "en")
+    return session.get("lang", "zh_Hans_CN")
 
 
 class BaseModel(PropsMixin, Model):

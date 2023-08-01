@@ -20,11 +20,18 @@ flask run
 Use Docker
 First, Build image and run in background
 docker compose up -d
+docker compose -f docker-compose_dev.yml up -d
 
 Second, enter container and add fake data
 docker compose exec web sh
 flask createdb
 flask seed
+flask seed --type product
 
 # 网站地址
 http://52.78.28.128:13145/
+
+# 测试用户
+aqiang
+aqiang@gmail.com
+123456

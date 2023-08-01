@@ -35,7 +35,8 @@ from flaskshop.product.models import (
 from flaskshop.public.models import MenuItem, Page
 from flaskshop.settings import Config
 
-fake = Factory.create()
+fake_zh = Factory.create('zh_CN')
+fake = Factory.create('en_US')
 
 
 class SaleorProvider(BaseProvider):
@@ -46,6 +47,7 @@ class SaleorProvider(BaseProvider):
         return random.choice(ShippingMethod.query.all())
 
 
+fake_zh.add_provider(SaleorProvider)
 fake.add_provider(SaleorProvider)
 
 GROCERIES_CATEGORY = {"name": "Groceries", "image_name": "groceries.jpg"}
@@ -302,9 +304,9 @@ def get_or_create_category(category_schema, placeholder_dir):
 
 # step7
 def create_product(**kwargs):
-    description = fake.paragraphs(5)
+    description = fake_zh.paragraphs(5)
     defaults = {
-        "title": fake.company(),
+        "title": fake_zh.company(),
         "basic_price": fake.pydecimal(2, 2, positive=True),
         "description": "\n\n".join(description),
         "is_featured": random.choice([0, 1]),
