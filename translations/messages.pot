@@ -1493,7 +1493,7 @@ msgstr ""
 
 #: ../flaskshop/templates/public/home.html:28
 msgid "Size & Colours"
-msgstr ""
+msgstr "SIZE & COLOURS"
 
 #: ../flaskshop/templates/public/home.html:40
 msgid "Digital Downloads"
@@ -1513,15 +1513,15 @@ msgstr ""
 
 #: ../flaskshop/templates/public/search_result.html:3
 msgid "Search results"
-msgstr ""
+msgstr "搜索结果"
 
 #: ../flaskshop/templates/public/search_result.html:21
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../flaskshop/templates/public/style_guide.html:13
 msgid "Style guide"
-msgstr ""
+msgstr "时尚指南"
 
 #: ../flaskshop/templates/public/style_guide.html:23
 #: ../flaskshop/templates/public/style_guide.html:45

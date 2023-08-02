@@ -22,6 +22,7 @@ class DBConfig:
 
 
 class Config:
+    BASE_DIR = os.path.abspath(os.path.dirname(__file__))
     ENV = "dev"
     FLASK_DEBUG = True
     SECRET_KEY = os.getenv("SECRET_KEY", "thisisashop")

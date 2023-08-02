@@ -150,6 +150,7 @@ def urls(url, order):
 @with_appcontext
 def createdb():
     """create database tables"""
+    db.drop_all()
     db.create_all()
 
 

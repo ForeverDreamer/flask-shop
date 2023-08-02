@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../flaskshop/checkout/forms.py:6
 msgid "ADD A NOTE TO YOUR ORDER"
-msgstr ""
+msgstr "订单备注"
 
 #: ../flaskshop/checkout/forms.py:10 ../flaskshop/dashboard/forms.py:174
 msgid "Code"
@@ -386,7 +386,7 @@ msgstr ""
 #: ../flaskshop/dashboard/forms.py:78 ../flaskshop/dashboard/forms.py:144
 #: ../flaskshop/templates/products/details.html:135
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../flaskshop/dashboard/forms.py:83
 msgid "User Name"
@@ -512,13 +512,16 @@ msgstr ""
 msgid "Price override"
 msgstr ""
 
+msgid "Product"
+msgstr "商品"
+
 #: ../flaskshop/dashboard/forms.py:161
 #: ../flaskshop/templates/checkout/cart.html:26
 #: ../flaskshop/templates/dashboard/product/detail.html:97
 #: ../flaskshop/templates/orders/_ordered_items_table.html:12
 #: ../flaskshop/templates/public/style_guide.html:573
 msgid "Quantity"
-msgstr ""
+msgstr "数量"
 
 #: ../flaskshop/dashboard/forms.py:167
 #: ../flaskshop/dashboard/views/product.py:215
@@ -528,7 +531,7 @@ msgstr ""
 #: ../flaskshop/templates/orders/_ordered_items_table.html:17
 #: ../flaskshop/templates/products/_filters.html:49
 msgid "Price"
-msgstr ""
+msgstr "价格"
 
 #: ../flaskshop/dashboard/forms.py:173
 #: ../flaskshop/dashboard/views/discount.py:17
@@ -653,7 +656,13 @@ msgstr ""
 #: ../flaskshop/templates/dashboard/user/detail.html:82
 #: ../flaskshop/templates/orders/_ordered_items_table.html:101
 msgid "Total"
-msgstr ""
+msgstr "总计"
+
+msgid "Order review"
+msgstr "订单预览"
+
+msgid "Use"
+msgstr "使用"
 
 #: ../flaskshop/dashboard/views/order.py:31
 msgid "User"
@@ -704,7 +713,7 @@ msgstr ""
 #: ../flaskshop/templates/dashboard/order/detail.html:35
 #: ../flaskshop/templates/dashboard/site/shipping_method.html:15
 msgid "Shipping Method"
-msgstr ""
+msgstr "运输方式"
 
 #: ../flaskshop/dashboard/views/site.py:61
 #: ../flaskshop/dashboard/views/site.py:110
@@ -765,25 +774,25 @@ msgstr ""
 
 #: ../flaskshop/templates/base.html:16
 msgid "flask store"
-msgstr ""
+msgstr "饭饭"
 
 #: ../flaskshop/templates/base.html:48 ../flaskshop/templates/base.html:186
 #: ../flaskshop/templates/dashboard/layout.html:22
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表板"
 
 #: ../flaskshop/templates/base.html:55
 msgid "Your Account"
-msgstr ""
+msgstr "你的账户"
 
 #: ../flaskshop/templates/base.html:60
 msgid "Log Out"
-msgstr ""
+msgstr "退出登录"
 
 #: ../flaskshop/templates/account/login.html:15
 #: ../flaskshop/templates/base.html:66 ../flaskshop/templates/base.html:204
 msgid "Register"
-msgstr ""
+msgstr "注册"
 
 #: ../flaskshop/templates/account/login.html:3
 #: ../flaskshop/templates/account/login.html:21
@@ -791,40 +800,40 @@ msgstr ""
 #: ../flaskshop/templates/account/signup.html:13
 #: ../flaskshop/templates/base.html:71 ../flaskshop/templates/base.html:209
 msgid "Log in"
-msgstr ""
+msgstr "登录"
 
 #: ../flaskshop/templates/base.html:114 ../flaskshop/templates/base.html:179
 msgid "Your Cart"
-msgstr ""
+msgstr "你的购物车"
 
 #: ../flaskshop/templates/base.html:173
 #: ../flaskshop/templates/dashboard/order/detail.html:25
 msgid "Account"
-msgstr ""
+msgstr "账户"
 
 #: ../flaskshop/templates/account/details.html:12
 #: ../flaskshop/templates/base.html:192
 #: ../flaskshop/templates/orders/details.html:17
 msgid "Your account"
-msgstr ""
+msgstr "你的账户"
 
 #: ../flaskshop/templates/base.html:198
 msgid "Log out"
-msgstr ""
+msgstr "退出登录"
 
 #: ../flaskshop/templates/account/address_edit.html:14
 #: ../flaskshop/templates/public/style_guide.html:612
 msgid "Your profile"
-msgstr ""
+msgstr "你的资料"
 
 #: ../flaskshop/templates/account/address_edit.html:30
 #: ../flaskshop/templates/public/style_guide.html:617
 msgid "Edit address"
-msgstr ""
+msgstr "修改地址"
 
 #: ../flaskshop/templates/account/address_edit.html:30
 msgid "New address"
-msgstr ""
+msgstr "新地址"
 
 #: ../flaskshop/templates/account/address_edit.html:37
 msgid "Save changes"
@@ -836,7 +845,7 @@ msgstr ""
 #: ../flaskshop/templates/public/page.html:13
 #: ../plugin_example/conversations/templates/message_layout.html:7
 msgid "Home"
-msgstr ""
+msgstr "主页"
 
 #: ../flaskshop/templates/account/details.html:19
 msgid "My account"
@@ -929,12 +938,12 @@ msgstr ""
 
 #: ../flaskshop/templates/account/signup.html:10
 msgid "Already have an account?"
-msgstr ""
+msgstr "已有账户"
 
 #: ../flaskshop/templates/account/signup.html:20
 #: ../flaskshop/templates/account/signup.html:28
 msgid "Create an account"
-msgstr ""
+msgstr "创建账户"
 
 #: ../flaskshop/templates/account/partials/login_form.html:21
 msgid "Forgot password?"
@@ -943,88 +952,92 @@ msgstr ""
 #: ../flaskshop/templates/checkout/_subtotal_table.html:5
 #: ../flaskshop/templates/public/cart_dropdown.html:31
 msgid "Shipment calculated at checkout"
-msgstr ""
+msgstr "运费在结算时计算"
 
 #: ../flaskshop/templates/checkout/cart.html:3
 msgid "Your cart"
-msgstr ""
+msgstr "你的购物车"
 
 #: ../flaskshop/templates/checkout/cart.html:8
 msgid "Cart"
-msgstr ""
+msgstr "购物车"
 
 #: ../flaskshop/templates/checkout/cart.html:15
 msgid "Product has been removed from cart"
-msgstr ""
+msgstr "产品已从购物车移除"
 
 #: ../flaskshop/templates/checkout/cart.html:75
 #: ../flaskshop/templates/checkout/details.html:3
 #: ../flaskshop/templates/checkout/details.html:16
 #: ../flaskshop/templates/public/cart_dropdown.html:50
 msgid "Checkout"
-msgstr ""
+msgstr "结账"
 
 #: ../flaskshop/templates/checkout/cart.html:82
 #: ../flaskshop/templates/public/cart_dropdown.html:55
 msgid "There are no products in your shopping cart."
-msgstr ""
+msgstr "购物车空空如也~"
 
 #: ../flaskshop/templates/checkout/cart.html:83
 #: ../flaskshop/templates/public/cart_dropdown.html:57
 msgid "Check out our sales"
-msgstr ""
+msgstr "浏览商品"
 
 #: ../flaskshop/templates/checkout/details.html:8
 msgid "Easy and secure!"
-msgstr ""
+msgstr "简单又安全！"
 
 #: ../flaskshop/templates/checkout/details.html:47
 #: ../flaskshop/templates/dashboard/order/detail.html:92
 #: ../flaskshop/templates/orders/_ordered_items_table.html:52
 msgid "Subtotal"
-msgstr ""
+msgstr "小计"
 
 #: ../flaskshop/templates/checkout/details.html:57
 msgid "Shipment"
-msgstr ""
+msgstr "运输"
 
 #: ../flaskshop/templates/checkout/details.html:72
 msgid "Promo code"
-msgstr ""
+msgstr "促销码"
 
 #: ../flaskshop/templates/checkout/details.html:78
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: ../flaskshop/templates/checkout/note.html:8
 #: ../flaskshop/templates/checkout/shipping.html:8
 #: ../flaskshop/templates/orders/_ordered_items_table.html:117
 msgid "Shipping address"
-msgstr ""
+msgstr "收货地址"
 
 #: ../flaskshop/templates/checkout/note.html:10
 msgid "Select other address"
-msgstr ""
+msgstr "选择其它地址"
 
 #: ../flaskshop/templates/checkout/note.html:15
 msgid "Select other shipping method"
-msgstr ""
+msgstr "选择其它运输方式"
+
+#: ../flaskshop/templates/checkout/note.html:28
+msgid "ORDER & PAY"
+msgstr "下单并付款"
 
 #: ../flaskshop/templates/checkout/shipping.html:27
 msgid "Enter a new address"
-msgstr ""
+msgstr "输入新地址"
 
 #: ../flaskshop/templates/checkout/shipping.html:42
 msgid "Shipping method"
-msgstr ""
+msgstr "运输方式"
 
 #: ../flaskshop/templates/checkout/shipping.html:60
 msgid "Continue"
-msgstr ""
+msgstr "继续"
 
 #: ../flaskshop/templates/dashboard/index.html:17
 msgid "Sales"
-msgstr ""
+msgstr "销售量"
 
 #: ../flaskshop/templates/dashboard/index.html:18
 msgid "today and"
@@ -1251,7 +1264,7 @@ msgstr ""
 
 #: ../flaskshop/templates/dashboard/site/index.html:40
 msgid "Shipping Methods"
-msgstr ""
+msgstr "所有运输方式"
 
 #: ../flaskshop/templates/dashboard/site/index.html:42
 msgid "Manage how you ship out orders"
@@ -1367,7 +1380,7 @@ msgstr ""
 
 #: ../flaskshop/templates/errors/404.html:11
 msgid "go home"
-msgstr ""
+msgstr "转到主页"
 
 #: ../flaskshop/templates/errors/404.html:11
 msgid "instead"
@@ -1439,7 +1452,7 @@ msgstr ""
 
 #: ../flaskshop/templates/products/details.html:119
 msgid "Add to cart"
-msgstr ""
+msgstr "加入购物车"
 
 #: ../flaskshop/templates/products/details.html:131
 msgid "This product is currently"
@@ -1479,30 +1492,33 @@ msgid "Try again or shop new arrivals."
 msgstr ""
 
 #: ../flaskshop/templates/public/home.html:11
+msgid "Apparel"
+msgstr "服饰"
+
 msgid "Promo & Sale"
-msgstr ""
+msgstr "促销及销售"
 
 #: ../flaskshop/templates/public/home.html:12
 msgid "from the Northpole"
-msgstr ""
+msgstr "来自北极"
 
 #: ../flaskshop/templates/public/home.html:14
 #: ../flaskshop/templates/public/home.html:29
 #: ../flaskshop/templates/public/home.html:41
 msgid "Shop now"
-msgstr ""
+msgstr "购买"
 
 #: ../flaskshop/templates/public/home.html:28
-msgid "Size & Colours"
+msgid "尺寸和颜色"
 msgstr ""
 
 #: ../flaskshop/templates/public/home.html:40
 msgid "Digital Downloads"
-msgstr ""
+msgstr "数字产品"
 
 #: ../flaskshop/templates/public/home.html:50
 msgid "Featured products"
-msgstr ""
+msgstr "特色产品"
 
 #: ../flaskshop/templates/public/page.html:27
 msgid "Warning!"
@@ -1514,20 +1530,20 @@ msgstr ""
 
 #: ../flaskshop/templates/public/search_result.html:3
 msgid "Search results"
-msgstr ""
+msgstr "搜索结果"
 
 #: ../flaskshop/templates/public/search_result.html:21
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../flaskshop/templates/public/style_guide.html:13
 msgid "Style guide"
-msgstr ""
+msgstr "时尚指南"
 
 #: ../flaskshop/templates/public/style_guide.html:23
 #: ../flaskshop/templates/public/style_guide.html:45
 msgid "Typography"
-msgstr ""
+msgstr "版式"
 
 #: ../flaskshop/templates/public/style_guide.html:24
 #: ../flaskshop/templates/public/style_guide.html:80

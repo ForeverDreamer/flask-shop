@@ -1,8 +1,11 @@
+import json
+import os
 import itertools
 import random
 import unicodedata
 from uuid import uuid4
 
+from flask import current_app
 from faker import Factory
 from faker.providers import BaseProvider
 from sqlalchemy.sql.expression import func
@@ -304,13 +307,23 @@ def get_or_create_category(category_schema, placeholder_dir):
 
 # step7
 def create_product(**kwargs):
-    description = fake_zh.paragraphs(5)
-    defaults = {
-        "title": fake_zh.company(),
-        "basic_price": fake.pydecimal(2, 2, positive=True),
-        "description": "\n\n".join(description),
-        "is_featured": random.choice([0, 1]),
-    }
+    # description = fake_zh.paragraphs(5)
+    # defaults = {
+    #     "title": fake_zh.company(),
+    #     "basic_price": fake.pydecimal(2, 2, positive=True),
+    #     "description": "\n\n".join(description),
+    #     "is_featured": random.choice([0, 1]),
+    # }
+    # read json file
+    with open(os.path.join(current_app.config["BASE_DIR"], 'data', 'product', 'tshirt.json'), "rb") as f:
+        products = json.load(f)
+        product = random.choice(products)
+        defaults = {
+            "title": product["title"],
+            "basic_price": float(product["price"]),
+            "description": product['description'],
+            "is_featured": random.choice([0, 1]),
+        }
     defaults.update(kwargs)
     return Product.create(**defaults)
 

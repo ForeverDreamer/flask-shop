@@ -21,6 +21,9 @@ Use Docker
 First, Build image and run in background
 docker compose up -d
 docker compose -f docker-compose_dev.yml up -d
+docker compose down
+# Dockerfile的copy文件部分抽空改为volume映射，避免每次都要build
+docker compose build
 
 Second, enter container and add fake data
 docker compose exec web sh

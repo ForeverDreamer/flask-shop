@@ -28,7 +28,7 @@
   </div>
   <div class="col-md-5">
     <div class="checkout__review">
-      <h3 class="checkout__review__tittle">Order review</h3>
+      <h3 class="checkout__review__tittle">{% trans %}Order review{% endtrans %}</h3>
       {% for line in current_user_cart.lines %}
       <div class="row">
         <div class="col-8">
@@ -88,7 +88,7 @@
             {{voucher_form.csrf_token}}
             <div class="input-group mb-3">
               <input type="text" name="code" class="form-control" aria-label="voucher" aria-describedby="button-addon">
-              <button class="btn secondary narrow" type="submit" id="button-addon">Use</button>
+              <button class="btn secondary narrow" type="submit" id="button-addon">{% trans %}Use{% endtrans %}</button>
             </div>
           </form>
           {% endif %}
