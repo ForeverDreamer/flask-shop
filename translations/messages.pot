@@ -1478,6 +1478,10 @@ msgid "Try again or shop new arrivals."
 msgstr ""
 
 #: ../flaskshop/templates/public/home.html:11
+msgid "Apparel"
+msgstr "服饰"
+
+#: ../flaskshop/templates/public/home.html:11
 msgid "Promo & Sale"
 msgstr ""
 
@@ -1493,7 +1497,7 @@ msgstr ""
 
 #: ../flaskshop/templates/public/home.html:28
 msgid "Size & Colours"
-msgstr "SIZE & COLOURS"
+msgstr "尺寸和颜色"
 
 #: ../flaskshop/templates/public/home.html:40
 msgid "Digital Downloads"
@@ -1521,7 +1525,7 @@ msgstr "搜索"
 
 #: ../flaskshop/templates/public/style_guide.html:13
 msgid "Style guide"
-msgstr "时尚指南"
+msgstr "风格指南"
 
 #: ../flaskshop/templates/public/style_guide.html:23
 #: ../flaskshop/templates/public/style_guide.html:45

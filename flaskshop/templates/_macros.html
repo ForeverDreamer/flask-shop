@@ -48,7 +48,7 @@
             {% with children=item.children %}
                 <li class="{% if horizontal %}nav-item{% endif %} {% if children %}nav-item__dropdown{% endif %} menu__item">
                     <a class="{% if horizontal %}nav-link{% endif %}" href="{{ item.url }}">
-                        {{ item }}
+                        {{ item | category_zh }}
                     </a>
                     {% if children %}
                         <div class="{% if horizontal %}nav-item__dropdown-content{% else %}nav-item__submenu{% endif %}">
@@ -58,9 +58,9 @@
                                         <li>
                                             <a href="{{ child.url }}">
                                                 {% if horizontal %}
-                                                    <strong>{{ child }}</strong>
+                                                    <strong>{{ child | category_zh }}</strong>
                                                 {% else %}
-                                                    {{ child }}
+                                                    {{ child | category_zh }}
                                                 {% endif %}
                                             </a>
                                         </li>
@@ -89,14 +89,14 @@
                 <ul class="menu">
                     <li class="nav-item__dropdown menu__item">
                         <a>
-                            <strong>{{ item.title }}</strong>
+                            <strong>{{ item.title  | category_zh }}</strong>
                         </a>
                         <hr/>
                     </li>
                     {% for child in children %}
                         <li>
                             <a rel="nofollow" href="{{ child.url }}">
-                                {{ child.title }}
+                                {{ child.title | category_zh }}
                             </a>
                         </li>
                     {% endfor %}

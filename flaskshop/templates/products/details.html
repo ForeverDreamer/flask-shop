@@ -15,7 +15,11 @@
   </li>
   {% if product.category %}
   <li>
-    <a href="{{ product.category.get_absolute_url() }}">{{ product.category }}</a>
+    <a href="{{ product.category.get_absolute_url() }}">
+        {% set category_title = product.category.title.capitalize() %}
+        {{ category_title | category_zh }}
+{#        {% trans %}category_title{% endtrans %}#}
+    </a>
   </li>
   {% endif %}
   <li>
@@ -143,8 +147,8 @@
     <table>
       {% for attribute, value in product.attribute_map.items() %}
       <tr>
-        <td>{{ attribute }}:</td>
-        <td><strong>{{ value }}</strong></td>
+        <td>{{ attribute | attr_zh }}:</td>
+        <td><strong>{{ value | attr_value_zh }}</strong></td>
       </tr>
       {% endfor %}
     </table>

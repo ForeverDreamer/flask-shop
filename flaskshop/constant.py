@@ -39,19 +39,22 @@ class Permission:
 
 SiteDefaultSettings = {
     "project_title": {
-        "value": "FlaskShop",
+        # "value": "开源在线商城",
+        "value": "",
         "value_type": SettingValueType.string,
         "name": "Project title",
         "description": "The title of the project.",
     },
     "project_subtitle": {
-        "value": "A lightweight e-commerce software in Flask",
+        # "value": "域名和UI界面可一键替换的在线商城系统",
+        "value": "",
         "value_type": SettingValueType.string,
         "name": "Project subtitle",
         "description": "A short description of the project.",
     },
     "project_copyright": {
-        "value": "COPYRIGHT © 2009–2019 MIRUMEE SOFTWARE",
+        # "value": "版权：开源免费，有啥版权！",
+        "value": "",
         "value_type": SettingValueType.string,
         "name": "Project Copyright",
         "description": "Copyright notice of the Project like '&copy; 2019 FlaskShop'. ",

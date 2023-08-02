@@ -456,8 +456,8 @@ Fake for public data
 # step18
 def create_page():
     content = """
-    <h2 align="center">AN OPENSOURCE STOREFRONT PLATFORM FOR PERFECTIONISTS</h2>
-    <h3 align="center">WRITTEN IN PYTHON, BEST SERVED AS A BESPOKE, HIGH-PERFORMANCE E-COMMERCE SOLUTION</h3>
+    <h2 align="center">适合完美主义者的开源店面平台</h2>
+    <h3 align="center">用 Python 编写，最适合作为定制的高性能电子商务解决方案</h3>
     <p><br></p>
     <p><img src="http://getsaleor.com/images/main-pic.svg"></p>
     <p style="text-align: center;">
@@ -466,7 +466,7 @@ def create_page():
     """
     page_data = {
         "content": content,
-        "title": "About",
+        "title": "关于我们",
         "is_visible": True,
         "slug": "about",
     }

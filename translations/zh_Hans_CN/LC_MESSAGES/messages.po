@@ -774,7 +774,7 @@ msgstr ""
 
 #: ../flaskshop/templates/base.html:16
 msgid "flask store"
-msgstr "饭饭"
+msgstr "在线商城"
 
 #: ../flaskshop/templates/base.html:48 ../flaskshop/templates/base.html:186
 #: ../flaskshop/templates/dashboard/layout.html:22
@@ -845,7 +845,7 @@ msgstr ""
 #: ../flaskshop/templates/public/page.html:13
 #: ../plugin_example/conversations/templates/message_layout.html:7
 msgid "Home"
-msgstr "主页"
+msgstr "首页"
 
 #: ../flaskshop/templates/account/details.html:19
 msgid "My account"
@@ -919,11 +919,11 @@ msgstr ""
 
 #: ../flaskshop/templates/account/details.html:148
 msgid "New Address"
-msgstr ""
+msgstr "新地址"
 
 #: ../flaskshop/templates/account/login.html:10
 msgid "Don't have an account yet?"
-msgstr ""
+msgstr "还没有账户"
 
 #: ../flaskshop/templates/account/reser_passwd_mail.html:42
 msgid "You reset your password"
@@ -947,7 +947,7 @@ msgstr "创建账户"
 
 #: ../flaskshop/templates/account/partials/login_form.html:21
 msgid "Forgot password?"
-msgstr ""
+msgstr "忘记密码"
 
 #: ../flaskshop/templates/checkout/_subtotal_table.html:5
 #: ../flaskshop/templates/public/cart_dropdown.html:31
@@ -1440,11 +1440,11 @@ msgstr ""
 
 #: ../flaskshop/templates/products/_filters.html:64
 msgid "Clear filters"
-msgstr ""
+msgstr "清除筛选"
 
 #: ../flaskshop/templates/products/_filters.html:68
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 #: ../flaskshop/templates/products/details.html:102
 msgid "Please choose a variant!"
@@ -1465,21 +1465,21 @@ msgstr ""
 #: ../flaskshop/templates/products/product_list_base.html:45
 #: ../flaskshop/templates/public/style_guide.html:417
 msgid "Filters"
-msgstr ""
+msgstr "筛选"
 
 #: ../flaskshop/templates/products/product_list_base.html:53
 #: ../flaskshop/templates/products/product_list_base.html:55
 #: ../flaskshop/templates/products/product_list_base.html:72
 msgid "Sort by"
-msgstr ""
+msgstr "排序"
 
 #: ../flaskshop/templates/products/product_list_base.html:78
 msgid "ascending"
-msgstr ""
+msgstr "升序"
 
 #: ../flaskshop/templates/products/product_list_base.html:85
 msgid "descending"
-msgstr ""
+msgstr "降序"
 
 #: ../flaskshop/templates/products/product_list_base.html:119
 #: ../flaskshop/templates/public/search_result.html:23
@@ -1509,8 +1509,8 @@ msgid "Shop now"
 msgstr "购买"
 
 #: ../flaskshop/templates/public/home.html:28
-msgid "尺寸和颜色"
-msgstr ""
+msgid "Size & Colours"
+msgstr "尺寸和颜色"
 
 #: ../flaskshop/templates/public/home.html:40
 msgid "Digital Downloads"
@@ -1538,7 +1538,7 @@ msgstr "搜索"
 
 #: ../flaskshop/templates/public/style_guide.html:13
 msgid "Style guide"
-msgstr "时尚指南"
+msgstr "风格指南"
 
 #: ../flaskshop/templates/public/style_guide.html:23
 #: ../flaskshop/templates/public/style_guide.html:45

@@ -1,7 +1,7 @@
 <div class="product-filters">
   <div class="product-filters__title">
     <h2>
-      <strong>{{ object }}</strong>
+      <strong>{{ object | category_zh }}</strong>
     </h2>
     {% block title_tree %}{% endblock title_tree %}
   </div>
@@ -15,7 +15,7 @@
 
         <div class="filter-section" aria-expanded="true">
           <div class="filter-section__header">
-            <h3>{{ attr }}</h3>
+            <h3>{{ attr | attr_zh }}</h3>
             <div class="filter-section__icon">
               <img class="lazyload lazypreload" data-src="{{ url_for('static', filename='img/chevron-up.svg') }}">
             </div>
@@ -32,7 +32,7 @@
                     {% else %}
                     <input type="radio" name="{{ attr }}" value="{{ value.id }}" id="{{ attr.title + loop.index|string }}">
                     {% endif %}
-                    {{ value }}
+                    {{ value | attr_value_zh }}
                   </label>
                 </li>
                 {% endfor %}
@@ -54,8 +54,8 @@
           <div class="filter-section__content">
             <div class="filter-form-field price-field">
               <input id="price_from" name="price_from" value="{{ price_from }}" type="number" min="0" class="form-control d-inline"
-                placeholder="from" /><span>-</span><input id="price_to" name="price_to" value="{{ price_to }}" type="number"
-                min="0" class="form-control d-inline" placeholder="to" />
+                placeholder="最低价" /><span>-</span><input id="price_to" name="price_to" value="{{ price_to }}" type="number"
+                min="0" class="form-control d-inline" placeholder="最高价" />
             </div>
           </div>
         </div>

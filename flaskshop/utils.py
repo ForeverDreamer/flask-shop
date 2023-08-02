@@ -91,3 +91,93 @@ def jinja_global_varibles(app):
     app.add_template_global(current_app, "current_app")
     app.add_template_global(get_sort_by_url, "get_sort_by_url")
     app.add_template_global(template_hook, "run_hook")
+
+
+def jinja_global_filters(app):
+    """Register global varibles for jinja2"""
+
+    categories = {
+        'Apparel': '服装',
+        'Accessories': '配件',
+        'Groceries': '杂货',
+        'Coffees': '咖啡',
+        'Candies': '糖果',
+        'Books': '书籍',
+        'Collections': '精选',
+        'Summer collection': '夏季新品',
+        'Winter sale': '冬季特卖',
+        'Saleor': '在线商城',
+        'About': '关于我们',
+        'Style guide': '风格指南',
+    }
+
+    attrs = {
+        'Color': '颜色',
+        'Collar': '领口',
+        'Brand': '品牌',
+        'Size': '尺码',
+        'Coffee Genre': '咖啡类型',
+        'Box Size': '盒子大小',
+        'Flavor': '口味',
+        'Candy Box Size': '糖果盒子大小',
+        'Author': '作者',
+        'Publisher': '出版社',
+        'Language': '语言',
+        'Cover': '封面',
+    }
+
+    attr_values = {
+        'Blue': '蓝色',
+        'White': '白色',
+        'Round': '圆领',
+        'V-Neck': 'V领',
+        'Polo': 'Polo领',
+        'Saleor': '在线商城',
+        'XS': 'XS',
+        'S': 'S',
+        'M': 'M',
+        'L': 'L',
+        'XL': 'XL',
+        'XXL': 'XXL',
+        'Arabica': '阿拉比卡',
+        'Robusta': '罗布斯塔',
+        '100g': '100g',
+        '250g': '250g',
+        '500g': '500g',
+        '1kg': '1kg',
+        'Sour': '酸',
+        'Sweet': '甜',
+        'John Doe': 'John Doe',
+        'Milionare Pirate': 'Milionare Pirate',
+        'Mirumee Press': '米鲁米出版社',
+        'Saleor Publishing': '在线出版社',
+        'English': '英语',
+        'Pirate': '海盗',
+        'Soft': '软封面',
+        'Hard': '硬封面',
+    }
+
+    produtc_fields = {
+        'title': '名称',
+        'price': '价格',
+    }
+
+    @app.template_filter('category_zh')
+    def category_zh(s):
+        s = str(s)
+        return categories.get(s, s)
+
+    @app.template_filter('attr_zh')
+    def attr_zh(s):
+        s = str(s)
+        return attrs.get(s, s)
+
+    @app.template_filter('attr_value_zh')
+    def attr_value_zh(s):
+        s = str(s)
+        return attr_values.get(s, s)
+
+    @app.template_filter('produtc_field_zh')
+    def produtc_field_zh(s):
+        s = str(s)
+        return produtc_fields.get(s, s)

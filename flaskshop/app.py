@@ -18,7 +18,7 @@ from flaskshop.extensions import (
 from flaskshop.plugin import manager, spec
 from flaskshop.plugin.models import PluginRegistry
 from flaskshop.settings import Config
-from flaskshop.utils import jinja_global_varibles, log_slow_queries
+from flaskshop.utils import jinja_global_varibles, jinja_global_filters, log_slow_queries
 
 
 def create_app(config_object=Config):
@@ -32,6 +32,7 @@ def create_app(config_object=Config):
     register_shellcontext(app)
     register_commands(app)
     jinja_global_varibles(app)
+    jinja_global_filters(app)
     log_slow_queries(app)
     return app
 
