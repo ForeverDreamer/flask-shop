@@ -22,7 +22,7 @@ First, Build image and run in background
 docker compose up -d
 docker compose -f docker-compose_dev.yml up -d
 docker compose down
-# Dockerfile的copy文件部分抽空改为volume映射，避免每次都要build
+# Dockerfile的copy文件部分抽空改为volume映射，避免每次都要彻底删除再拷贝文件，再build
 docker compose build
 
 Second, enter container and add fake data
@@ -32,9 +32,9 @@ flask seed
 flask seed --type product
 
 # 网站地址
-http://52.78.28.128:13145/
+http://43.202.0.14:13145/
 
 # 测试用户
-aqiang
-aqiang@gmail.com
+eshop
+eshop@gmail.com
 123456

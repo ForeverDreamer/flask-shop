@@ -65,6 +65,7 @@ def signup():
             username=form.username.data,
             email=form.email.data.lower(),
             password=form.password.data,
+            nick_name=form.nick_name.data,
             is_active=True,
         )
         login_user(user)

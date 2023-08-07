@@ -42,6 +42,9 @@ msgstr "用户名"
 msgid "The username should contain only a-z, A-Z and 0-9."
 msgstr "用户名应该只包含 a-z, A-Z 和 0-9."
 
+msgid "nick_name"
+msgstr "昵称"
+
 #: ../flaskshop/account/forms.py:28 ../flaskshop/account/forms.py:60
 #: ../flaskshop/dashboard/views/user.py:27
 msgid "Email"

@@ -39,6 +39,9 @@ class RegisterForm(FlaskForm):
             EqualTo("password", message=lazy_gettext("Passwords must match")),
         ],
     )
+    nick_name = StringField(
+        lazy_gettext("nick_name"),
+    )
 
     def __init__(self, *args, **kwargs):
         """Create instance."""

@@ -25,7 +25,7 @@ class User(Model, UserMixin):
         super().__init__(username=username, email=email, password=password, **kwargs)
 
     def __str__(self):
-        return self.username
+        return self.nick_name if self.nick_name else self.username
 
     @hybrid_property
     def password(self):
