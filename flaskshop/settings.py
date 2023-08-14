@@ -8,17 +8,17 @@ class DBConfig:
     db_type = os.getenv("DB_TYPE", "mysql")
     user = os.getenv("DB_USER", "root")
     passwd = os.getenv("DB_PASSWD", "root")
-    host = os.getenv("DB_HOST", "192.168.116.128")
+    db_host = os.getenv("DB_HOST", "192.168.80.129")
     port = os.getenv("DB_PORT", 3306)
     db_name = os.getenv("DB_NAME", "flaskshop")
     if db_type == "postgresql":
-        db_uri = f"postgresql://{user}:{passwd}@{host}:{port}/{db_name}"
+        db_uri = f"postgresql://{user}:{passwd}@{db_host}:{port}/{db_name}"
     elif db_type == "mysql":
         db_uri = (
-            f"mysql+pymysql://{user}:{passwd}@{host}:{port}/{db_name}?charset=utf8mb4"
+            f"mysql+pymysql://{user}:{passwd}@{db_host}:{port}/{db_name}?charset=utf8mb4"
         )
-    redis_uri = "redis://192.168.116.128:6379"
-    esearch_uri = "192.168.116.128"
+    redis_uri = f"redis://{db_host}:6379"
+    esearch_uri = db_host
 
 
 class Config:
@@ -75,7 +75,7 @@ class Config:
     )
     BABEL_CURRENCY = os.getenv("BABEL_CURRENCY", "USD")
 
-    MAIL_SERVER = os.getenv("MAIL_SERVER", "192.168.116.128")
+    MAIL_SERVER = os.getenv("MAIL_SERVER", DBConfig.db_host)
     MAIL_PORT = os.getenv("MAIL_PORT", 25)
     MAIL_TLS = os.getenv("MAIL_TLS", False)
     MAIL_USERNAME = os.getenv("MAIL_USERNAME", "")

@@ -41,12 +41,14 @@ services:
       - redis
       - esearch
     ports:
-      - "13145:5000"
+      - "80:5000"
     environment:
       DB_URI: mysql+pymysql://root:root@db:3306/flaskshop?charset=utf8mb4
       REDIS_URI: redis://redis:6379
       ESEARCH_URI: esearch
     restart: unless-stopped
+    volumes:
+      - .:/app
 
 volumes:
   db_data:

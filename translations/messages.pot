@@ -1,14 +1,14 @@
 # Translations template for PROJECT.
-# Copyright (C) 2022 ORGANIZATION
+# Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-02 10:26+0800\n"
+"POT-Creation-Date: 2023-08-14 21:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,584 +17,483 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../flaskshop/constant.py:32
+#: ../flaskshop/constant.py:33
 msgid "Login user"
 msgstr ""
 
-#: ../flaskshop/constant.py:33
+#: ../flaskshop/constant.py:34
 msgid "Editor"
 msgstr ""
 
-#: ../flaskshop/constant.py:34
+#: ../flaskshop/constant.py:35
 msgid "Operator"
 msgstr ""
 
-#: ../flaskshop/constant.py:35
+#: ../flaskshop/constant.py:36
 msgid "Super administrator"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:17 ../flaskshop/dashboard/views/user.py:26
+#: ../flaskshop/account/forms.py:16 ../flaskshop/dashboard/views/user.py:26
 msgid "Username"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:23
+#: ../flaskshop/account/forms.py:22
 msgid "The username should contain only a-z, A-Z and 0-9."
 msgstr ""
 
-#: ../flaskshop/account/forms.py:28 ../flaskshop/account/forms.py:60
+#: ../flaskshop/account/forms.py:29 ../flaskshop/account/forms.py:70
 #: ../flaskshop/dashboard/views/user.py:27
 msgid "Email"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:31 ../flaskshop/account/forms.py:89
-#: ../flaskshop/account/forms.py:122 ../flaskshop/dashboard/forms.py:85
+#: ../flaskshop/account/forms.py:33 ../flaskshop/account/forms.py:104
+#: ../flaskshop/account/forms.py:139 ../flaskshop/dashboard/forms.py:97
 msgid "Password"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:34 ../flaskshop/account/forms.py:124
+#: ../flaskshop/account/forms.py:36 ../flaskshop/account/forms.py:141
 msgid "Verify password"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:35 ../flaskshop/account/forms.py:127
+#: ../flaskshop/account/forms.py:39 ../flaskshop/account/forms.py:144
 msgid "Passwords must match"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:50
+#: ../flaskshop/account/forms.py:43
+msgid "nick_name"
+msgstr ""
+
+#: ../flaskshop/account/forms.py:58
 msgid "Username already registered"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:54
+#: ../flaskshop/account/forms.py:62
 msgid "Email already registered"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:76 ../flaskshop/account/forms.py:107
-msgid "Unknown username"
-msgstr ""
-
-#: ../flaskshop/account/forms.py:79 ../flaskshop/account/forms.py:115
-msgid "User not activated"
-msgstr ""
-
-#: ../flaskshop/account/forms.py:82
+#: ../flaskshop/account/forms.py:84
 msgid "Invalid"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:88
+#: ../flaskshop/account/forms.py:89 ../flaskshop/account/forms.py:122
+msgid "Unknown username"
+msgstr ""
+
+#: ../flaskshop/account/forms.py:92 ../flaskshop/account/forms.py:130
+msgid "User not activated"
+msgstr ""
+
+#: ../flaskshop/account/forms.py:102
 msgid "Username Or Email"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:111 ../flaskshop/account/forms.py:143
+#: ../flaskshop/account/forms.py:126 ../flaskshop/account/forms.py:160
 msgid "Invalid password"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:121
+#: ../flaskshop/account/forms.py:137
 msgid "Old Password"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:151 ../flaskshop/dashboard/forms.py:94
+#: ../flaskshop/account/forms.py:169 ../flaskshop/dashboard/forms.py:110
 msgid "Province"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:152
+#: ../flaskshop/account/forms.py:170
 msgid "City"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:153 ../flaskshop/dashboard/forms.py:96
+#: ../flaskshop/account/forms.py:171 ../flaskshop/dashboard/forms.py:112
 msgid "District"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:154 ../flaskshop/dashboard/forms.py:97
+#: ../flaskshop/account/forms.py:172 ../flaskshop/dashboard/forms.py:113
 msgid "Address"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:155
+#: ../flaskshop/account/forms.py:174
 msgid "Contact name"
 msgstr ""
 
-#: ../flaskshop/account/forms.py:157 ../flaskshop/dashboard/forms.py:99
-#: ../flaskshop/templates/dashboard/user/detail.html:57
+#: ../flaskshop/account/forms.py:177 ../flaskshop/dashboard/forms.py:115
+#: ../flaskshop/templates/dashboard/user/detail.html:64
 msgid "Contact Phone"
 msgstr ""
 
-#: ../flaskshop/account/views.py:31
+#: ../flaskshop/account/views.py:30
 msgid "You are log in."
 msgstr ""
 
-#: ../flaskshop/account/views.py:46
+#: ../flaskshop/account/views.py:42
 msgid "Check your e-mail."
 msgstr ""
 
-#: ../flaskshop/account/views.py:50
-#: ../flaskshop/templates/account/login.html:23
-#: ../flaskshop/templates/account/partials/login_form.html:16
-msgid "Reset Password"
-msgstr ""
-
-#: ../flaskshop/account/views.py:52
-#, python-format
-msgid ""
-"We cannot simply send you your old password.\n"
-" \n"
-"        A unique password has been generated for you. Change the password"
-" after logging in.\n"
-"\n"
-"        New Password is: %s"
-msgstr ""
-
-#: ../flaskshop/account/views.py:68
+#: ../flaskshop/account/views.py:56
 msgid "You are logged out."
 msgstr ""
 
-#: ../flaskshop/account/views.py:83
+#: ../flaskshop/account/views.py:72
 msgid "You are signed up."
 msgstr ""
 
-#: ../flaskshop/account/views.py:94
+#: ../flaskshop/account/views.py:83
 msgid "You have changed password."
 msgstr ""
 
-#: ../flaskshop/account/views.py:125
+#: ../flaskshop/account/views.py:114
 msgid "Success edit address."
 msgstr ""
 
-#: ../flaskshop/account/views.py:128
+#: ../flaskshop/account/views.py:117
 msgid "Success add address."
 msgstr ""
 
-#: ../flaskshop/api/checkout.py:5
-msgid "Checkout related operations"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:10
-msgid "The checkout cartline id"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:11
-msgid "The cart item num"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:13
-msgid "The cart item title"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:16
-msgid "The cart item variant"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:19
-msgid "The cart item product"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:22
-msgid "The cart item price"
-msgstr ""
-
-#: ../flaskshop/api/checkout.py:25
-msgid "The cart item image"
-msgstr ""
-
-#: ../flaskshop/api/product.py:9
-msgid "Products related operations"
-msgstr ""
-
-#: ../flaskshop/api/product.py:11
-msgid "The variant"
-msgstr ""
-
-#: ../flaskshop/api/product.py:12
-msgid "The quantity"
-msgstr ""
-
-#: ../flaskshop/api/product.py:17 ../flaskshop/api/product.py:39
-#: ../flaskshop/api/product.py:63
-msgid "The product identifier"
-msgstr ""
-
-#: ../flaskshop/api/product.py:18 ../flaskshop/api/product.py:40
-msgid "The product name"
-msgstr ""
-
-#: ../flaskshop/api/product.py:19 ../flaskshop/api/product.py:41
-msgid "The product description"
-msgstr ""
-
-#: ../flaskshop/api/product.py:20 ../flaskshop/api/product.py:42
-msgid "The product price"
-msgstr ""
-
-#: ../flaskshop/api/product.py:21
-msgid "The product first img"
-msgstr ""
-
-#: ../flaskshop/api/product.py:27
-msgid "The variant identifier"
-msgstr ""
-
-#: ../flaskshop/api/product.py:28
-msgid "The variant sku"
-msgstr ""
-
-#: ../flaskshop/api/product.py:29
-msgid "The variant name"
-msgstr ""
-
-#: ../flaskshop/api/product.py:30
-msgid "The variant price"
-msgstr ""
-
-#: ../flaskshop/api/product.py:32
-msgid "The variant stock"
-msgstr ""
-
-#: ../flaskshop/api/product.py:43
-msgid "The product images"
-msgstr ""
-
-#: ../flaskshop/api/product.py:45
-msgid "The product variant"
-msgstr ""
-
-#: ../flaskshop/api/product.py:64
-msgid "Product not found"
-msgstr ""
-
-#: ../flaskshop/checkout/forms.py:6
+#: ../flaskshop/checkout/forms.py:7
 msgid "ADD A NOTE TO YOUR ORDER"
 msgstr ""
 
-#: ../flaskshop/checkout/forms.py:10 ../flaskshop/dashboard/forms.py:174
+#: ../flaskshop/checkout/forms.py:11 ../flaskshop/dashboard/forms.py:221
 msgid "Code"
 msgstr ""
 
-#: ../flaskshop/checkout/views.py:118
+#: ../flaskshop/checkout/views.py:117
 msgid "Your code is not correct"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:48 ../flaskshop/dashboard/forms.py:57
-#: ../flaskshop/dashboard/forms.py:69 ../flaskshop/dashboard/forms.py:104
-#: ../flaskshop/dashboard/forms.py:111 ../flaskshop/dashboard/forms.py:119
-#: ../flaskshop/dashboard/forms.py:127 ../flaskshop/dashboard/forms.py:136
-#: ../flaskshop/dashboard/forms.py:159 ../flaskshop/dashboard/forms.py:166
-#: ../flaskshop/dashboard/forms.py:172 ../flaskshop/dashboard/forms.py:193
+#: ../flaskshop/dashboard/forms.py:49 ../flaskshop/dashboard/forms.py:58
+#: ../flaskshop/dashboard/forms.py:78 ../flaskshop/dashboard/forms.py:120
+#: ../flaskshop/dashboard/forms.py:130 ../flaskshop/dashboard/forms.py:144
+#: ../flaskshop/dashboard/forms.py:158 ../flaskshop/dashboard/forms.py:169
+#: ../flaskshop/dashboard/forms.py:200 ../flaskshop/dashboard/forms.py:211
+#: ../flaskshop/dashboard/forms.py:219 ../flaskshop/dashboard/forms.py:245
 #: ../flaskshop/dashboard/views/discount.py:16
-#: ../flaskshop/dashboard/views/discount.py:70
+#: ../flaskshop/dashboard/views/discount.py:66
 #: ../flaskshop/dashboard/views/product.py:30
-#: ../flaskshop/dashboard/views/product.py:67
-#: ../flaskshop/dashboard/views/product.py:108
-#: ../flaskshop/dashboard/views/product.py:152
-#: ../flaskshop/dashboard/views/product.py:212
-#: ../flaskshop/dashboard/views/site.py:24
-#: ../flaskshop/dashboard/views/site.py:58
-#: ../flaskshop/dashboard/views/site.py:106
-#: ../flaskshop/dashboard/views/site.py:144
-#: ../flaskshop/templates/dashboard/product/detail.html:96
+#: ../flaskshop/dashboard/views/product.py:72
+#: ../flaskshop/dashboard/views/product.py:90
+#: ../flaskshop/dashboard/views/product.py:155
+#: ../flaskshop/dashboard/views/product.py:225
+#: ../flaskshop/dashboard/views/site.py:25
+#: ../flaskshop/dashboard/views/site.py:64
+#: ../flaskshop/dashboard/views/site.py:115
+#: ../flaskshop/dashboard/views/site.py:161
+#: ../flaskshop/templates/dashboard/product/detail.html:113
 msgid "Title"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:49 ../flaskshop/dashboard/forms.py:58
-#: ../flaskshop/dashboard/views/site.py:59
-#: ../flaskshop/dashboard/views/site.py:107
+#: ../flaskshop/dashboard/forms.py:50 ../flaskshop/dashboard/forms.py:59
+#: ../flaskshop/dashboard/views/site.py:65
+#: ../flaskshop/dashboard/views/site.py:116
 #: ../flaskshop/templates/account/details.html:47
-#: ../flaskshop/templates/dashboard/index.html:105
+#: ../flaskshop/templates/dashboard/index.html:97
 #: ../flaskshop/templates/orders/details.html:22
 #: ../flaskshop/templates/orders/details.html:35
-#: ../flaskshop/templates/public/style_guide.html:714
+#: ../flaskshop/templates/public/style_guide.html:855
 msgid "Order"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:50
+#: ../flaskshop/dashboard/forms.py:51
 msgid "End Point"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:51
+#: ../flaskshop/dashboard/forms.py:52
 msgid "Icon"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:52 ../flaskshop/dashboard/forms.py:60
-#: ../flaskshop/dashboard/forms.py:120
-#: ../flaskshop/dashboard/views/product.py:109
+#: ../flaskshop/dashboard/forms.py:53 ../flaskshop/dashboard/forms.py:61
+#: ../flaskshop/dashboard/forms.py:145
+#: ../flaskshop/dashboard/views/product.py:91
 msgid "Parent"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:53 ../flaskshop/dashboard/forms.py:65
-#: ../flaskshop/dashboard/forms.py:73 ../flaskshop/dashboard/forms.py:79
-#: ../flaskshop/dashboard/forms.py:90 ../flaskshop/dashboard/forms.py:100
-#: ../flaskshop/dashboard/forms.py:107 ../flaskshop/dashboard/forms.py:115
-#: ../flaskshop/dashboard/forms.py:123 ../flaskshop/dashboard/forms.py:132
-#: ../flaskshop/dashboard/forms.py:147 ../flaskshop/dashboard/forms.py:152
-#: ../flaskshop/dashboard/forms.py:162 ../flaskshop/dashboard/forms.py:168
-#: ../flaskshop/dashboard/forms.py:189 ../flaskshop/dashboard/forms.py:198
+#: ../flaskshop/dashboard/forms.py:54 ../flaskshop/dashboard/forms.py:74
+#: ../flaskshop/dashboard/forms.py:85 ../flaskshop/dashboard/forms.py:91
+#: ../flaskshop/dashboard/forms.py:106 ../flaskshop/dashboard/forms.py:116
+#: ../flaskshop/dashboard/forms.py:126 ../flaskshop/dashboard/forms.py:140
+#: ../flaskshop/dashboard/forms.py:154 ../flaskshop/dashboard/forms.py:165
+#: ../flaskshop/dashboard/forms.py:188 ../flaskshop/dashboard/forms.py:207
+#: ../flaskshop/dashboard/forms.py:215 ../flaskshop/dashboard/forms.py:241
+#: ../flaskshop/dashboard/forms.py:250 ../flaskshop/dashboard/forms.py:361
 msgid "Submit"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:59 ../flaskshop/dashboard/views/site.py:146
+#: ../flaskshop/dashboard/forms.py:60 ../flaskshop/dashboard/views/site.py:163
 msgid "Url"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:61 ../flaskshop/dashboard/views/site.py:60
+#: ../flaskshop/dashboard/forms.py:63 ../flaskshop/dashboard/views/site.py:66
 msgid "Position"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:61
+#: ../flaskshop/dashboard/forms.py:65
 msgid "none"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:61
+#: ../flaskshop/dashboard/forms.py:66
 msgid "top"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:61
+#: ../flaskshop/dashboard/forms.py:67
 msgid "bottom"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:62 ../flaskshop/dashboard/forms.py:143
-#: ../flaskshop/dashboard/forms.py:184 ../flaskshop/dashboard/forms.py:196
-#: ../flaskshop/dashboard/views/product.py:216
+#: ../flaskshop/dashboard/forms.py:71 ../flaskshop/dashboard/forms.py:176
+#: ../flaskshop/dashboard/forms.py:234 ../flaskshop/dashboard/forms.py:248
+#: ../flaskshop/dashboard/views/product.py:229
 #: ../flaskshop/templates/dashboard/product/category.html:15
-#: ../flaskshop/templates/dashboard/product/detail.html:56
-#: ../flaskshop/templates/dashboard/product/list.html:26
+#: ../flaskshop/templates/dashboard/product/detail.html:71
 msgid "Category"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:63
+#: ../flaskshop/dashboard/forms.py:72
 #: ../flaskshop/templates/dashboard/product/collection.html:15
 msgid "Collection"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:64
+#: ../flaskshop/dashboard/forms.py:73
 #: ../flaskshop/templates/dashboard/site/site_page.html:14
 msgid "Page"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:70 ../flaskshop/dashboard/views/site.py:145
+#: ../flaskshop/dashboard/forms.py:80 ../flaskshop/dashboard/views/site.py:162
 msgid "Slug"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:71
+#: ../flaskshop/dashboard/forms.py:83
 msgid "Content"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:72
+#: ../flaskshop/dashboard/forms.py:84
 msgid "Is Visible"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:77
+#: ../flaskshop/dashboard/forms.py:89
 msgid "Header"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:78 ../flaskshop/dashboard/forms.py:144
-#: ../flaskshop/templates/products/details.html:135
+#: ../flaskshop/dashboard/forms.py:90 ../flaskshop/dashboard/forms.py:177
+#: ../flaskshop/templates/products/details.html:142
 msgid "Description"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:83
+#: ../flaskshop/dashboard/forms.py:95
 msgid "User Name"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:84
+#: ../flaskshop/dashboard/forms.py:96
 msgid "E-mail"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:86
-msgid "Is Activ"
+#: ../flaskshop/dashboard/forms.py:98 ../flaskshop/dashboard/views/user.py:28
+msgid "Is Active"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:87
+#: ../flaskshop/dashboard/forms.py:100
 msgid "Role"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:88
+#: ../flaskshop/dashboard/forms.py:104
 msgid "Created at"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:89
+#: ../flaskshop/dashboard/forms.py:105
 msgid "Updated at"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:95
+#: ../flaskshop/dashboard/forms.py:111
 msgid "Sity"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:98
-#: ../flaskshop/templates/dashboard/user/detail.html:56
+#: ../flaskshop/dashboard/forms.py:114
+#: ../flaskshop/templates/dashboard/user/detail.html:63
 msgid "Contact Name"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:105
+#: ../flaskshop/dashboard/forms.py:122
 #: ../flaskshop/dashboard/views/product.py:31
 msgid "Value"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:106
+#: ../flaskshop/dashboard/forms.py:123
+msgid "Multiple values need separated by ','"
+msgstr ""
+
+#: ../flaskshop/dashboard/forms.py:125
 #: ../flaskshop/templates/dashboard/site/index.html:27
 msgid "Product Types"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:112
+#: ../flaskshop/dashboard/forms.py:131
 msgid "Products"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:113 ../flaskshop/dashboard/forms.py:121
+#: ../flaskshop/dashboard/forms.py:132 ../flaskshop/dashboard/forms.py:146
 msgid "Current Image"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:114 ../flaskshop/dashboard/forms.py:122
-msgid "Upload"
+#: ../flaskshop/dashboard/forms.py:134 ../flaskshop/dashboard/forms.py:148
+msgid "Upload a new one"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:128
+#: ../flaskshop/dashboard/forms.py:159
 msgid "Has variant"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:129
+#: ../flaskshop/dashboard/forms.py:161
 msgid "Is shipping required"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:130
+#: ../flaskshop/dashboard/forms.py:163
 msgid "Product atributes"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:131
+#: ../flaskshop/dashboard/forms.py:164
 msgid "Variant Attributes"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:137
+#: ../flaskshop/dashboard/forms.py:170
 msgid "Basic Price"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:138
-#: ../flaskshop/dashboard/views/product.py:213
-#: ../flaskshop/templates/dashboard/product/detail.html:39
-#: ../flaskshop/templates/dashboard/product/list.html:19
+#: ../flaskshop/dashboard/forms.py:171
+#: ../flaskshop/dashboard/views/product.py:226
+#: ../flaskshop/templates/dashboard/product/detail.html:50
 msgid "On Sale"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:139
+#: ../flaskshop/dashboard/forms.py:172
 msgid "Is Featured"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:140
-#: ../flaskshop/templates/dashboard/product/detail.html:47
+#: ../flaskshop/dashboard/forms.py:173
+#: ../flaskshop/templates/dashboard/product/detail.html:59
 msgid "Rating"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:141
-#: ../flaskshop/dashboard/views/product.py:214
-#: ../flaskshop/templates/dashboard/product/detail.html:50
+#: ../flaskshop/dashboard/forms.py:174
+#: ../flaskshop/dashboard/views/product.py:227
+#: ../flaskshop/templates/dashboard/product/detail.html:63
 msgid "Sold Count"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:142
-#: ../flaskshop/templates/dashboard/product/detail.html:53
+#: ../flaskshop/dashboard/forms.py:175
+#: ../flaskshop/templates/dashboard/product/detail.html:67
 msgid "Review Count"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:145
+#: ../flaskshop/dashboard/forms.py:178
 msgid "Images"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:146
+#: ../flaskshop/dashboard/forms.py:187
 msgid "Atributes"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:151
+#: ../flaskshop/dashboard/forms.py:192
 msgid "Choose A Product Type"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:157
+#: ../flaskshop/dashboard/forms.py:193
+msgid "Next"
+msgstr ""
+
+#: ../flaskshop/dashboard/forms.py:198
 #: ../flaskshop/templates/dashboard/order/detail.html:51
-#: ../flaskshop/templates/dashboard/product/detail.html:95
+#: ../flaskshop/templates/dashboard/product/detail.html:112
 msgid "SKU"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:160
+#: ../flaskshop/dashboard/forms.py:202
 msgid "Price override"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:161
+#: ../flaskshop/dashboard/forms.py:205
 #: ../flaskshop/templates/checkout/cart.html:26
-#: ../flaskshop/templates/dashboard/product/detail.html:97
+#: ../flaskshop/templates/dashboard/product/detail.html:114
 #: ../flaskshop/templates/orders/_ordered_items_table.html:12
-#: ../flaskshop/templates/public/style_guide.html:573
+#: ../flaskshop/templates/public/style_guide.html:657
 msgid "Quantity"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:167
-#: ../flaskshop/dashboard/views/product.py:215
-#: ../flaskshop/dashboard/views/site.py:25
+#: ../flaskshop/dashboard/forms.py:213
+#: ../flaskshop/dashboard/views/product.py:228
+#: ../flaskshop/dashboard/views/site.py:26
 #: ../flaskshop/templates/checkout/cart.html:29
-#: ../flaskshop/templates/dashboard/product/detail.html:43
+#: ../flaskshop/templates/dashboard/product/detail.html:54
 #: ../flaskshop/templates/orders/_ordered_items_table.html:17
 #: ../flaskshop/templates/products/_filters.html:49
 msgid "Price"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:173
+#: ../flaskshop/dashboard/forms.py:220
 #: ../flaskshop/dashboard/views/discount.py:17
-#: ../flaskshop/templates/dashboard/product/product_create_step2.html:17
 msgid "Type"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:175
+#: ../flaskshop/dashboard/forms.py:223
 msgid "Usage limit"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:176
+#: ../flaskshop/dashboard/forms.py:224
 msgid "how many times can be used"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:178
+#: ../flaskshop/dashboard/forms.py:227
 #: ../flaskshop/dashboard/views/discount.py:19
 msgid "Used"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:179
-msgid "Validity Period"
+#: ../flaskshop/dashboard/forms.py:228
+msgid "Start At"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:180 ../flaskshop/dashboard/forms.py:194
+#: ../flaskshop/dashboard/forms.py:229
+msgid "End At"
+msgstr ""
+
+#: ../flaskshop/dashboard/forms.py:230 ../flaskshop/dashboard/forms.py:246
 msgid "Discount value type"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:181 ../flaskshop/dashboard/forms.py:195
+#: ../flaskshop/dashboard/forms.py:231 ../flaskshop/dashboard/forms.py:247
 msgid "Discount value"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:182
+#: ../flaskshop/dashboard/forms.py:232
 msgid "Limit"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:184
+#: ../flaskshop/dashboard/forms.py:235
 msgid "when type is category, need to select"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:187 ../flaskshop/dashboard/forms.py:197
+#: ../flaskshop/dashboard/forms.py:238 ../flaskshop/dashboard/forms.py:249
 #: ../flaskshop/templates/checkout/cart.html:23
 #: ../flaskshop/templates/dashboard/order/detail.html:50
 #: ../flaskshop/templates/orders/_ordered_items_table.html:7
 msgid "Product"
 msgstr ""
 
-#: ../flaskshop/dashboard/forms.py:187
+#: ../flaskshop/dashboard/forms.py:239
 msgid "when type is product, need to select"
 msgstr ""
 
 #: ../flaskshop/dashboard/views/discount.py:15
-#: ../flaskshop/dashboard/views/discount.py:69
-#: ../flaskshop/dashboard/views/order.py:27
+#: ../flaskshop/dashboard/views/discount.py:65
+#: ../flaskshop/dashboard/views/order.py:26
 #: ../flaskshop/dashboard/views/product.py:29
-#: ../flaskshop/dashboard/views/product.py:67
-#: ../flaskshop/dashboard/views/product.py:107
-#: ../flaskshop/dashboard/views/product.py:151
-#: ../flaskshop/dashboard/views/product.py:211
-#: ../flaskshop/dashboard/views/site.py:23
-#: ../flaskshop/dashboard/views/site.py:57
-#: ../flaskshop/dashboard/views/site.py:105
-#: ../flaskshop/dashboard/views/site.py:143
+#: ../flaskshop/dashboard/views/product.py:71
+#: ../flaskshop/dashboard/views/product.py:89
+#: ../flaskshop/dashboard/views/product.py:154
+#: ../flaskshop/dashboard/views/product.py:224
+#: ../flaskshop/dashboard/views/site.py:24
+#: ../flaskshop/dashboard/views/site.py:63
+#: ../flaskshop/dashboard/views/site.py:114
+#: ../flaskshop/dashboard/views/site.py:160
 #: ../flaskshop/dashboard/views/user.py:25
-#: ../flaskshop/templates/dashboard/product/detail.html:94
-#: ../flaskshop/templates/dashboard/user/detail.html:55
-#: ../flaskshop/templates/dashboard/user/detail.html:80
+#: ../flaskshop/templates/dashboard/product/detail.html:111
+#: ../flaskshop/templates/dashboard/user/detail.html:62
+#: ../flaskshop/templates/dashboard/user/detail.html:88
 msgid "ID"
 msgstr ""
 
@@ -603,17 +502,17 @@ msgid "Usage Limit"
 msgstr ""
 
 #: ../flaskshop/dashboard/views/discount.py:20
-#: ../flaskshop/dashboard/views/discount.py:71
+#: ../flaskshop/dashboard/views/discount.py:67
 msgid "Discount Type"
 msgstr ""
 
 #: ../flaskshop/dashboard/views/discount.py:21
-#: ../flaskshop/dashboard/views/discount.py:72
+#: ../flaskshop/dashboard/views/discount.py:68
 msgid "Discount Value"
 msgstr ""
 
 #: ../flaskshop/dashboard/views/discount.py:24
-#: ../flaskshop/templates/dashboard/discount/voucher.html:15
+#: ../flaskshop/dashboard/views/discount.py:54
 msgid "Voucher"
 msgstr ""
 
@@ -621,56 +520,71 @@ msgstr ""
 msgid "vouchers"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/discount.py:75
-#: ../flaskshop/templates/dashboard/discount/sale.html:14
+#: ../flaskshop/dashboard/views/discount.py:51
+msgid "Voucher saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/discount.py:71
+#: ../flaskshop/dashboard/views/discount.py:106
 #: ../flaskshop/templates/products/_items.html:14
-#: ../flaskshop/templates/public/style_guide.html:841
 msgid "Sale"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/discount.py:79
+#: ../flaskshop/dashboard/views/discount.py:75
 msgid "sales"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/order.py:28
+#: ../flaskshop/dashboard/views/discount.py:103
+msgid "Sale saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/order.py:27
 msgid "Identity"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/order.py:29
+#: ../flaskshop/dashboard/views/order.py:28
 #: ../flaskshop/templates/account/details.html:56
 #: ../flaskshop/templates/dashboard/order/detail.html:22
-#: ../flaskshop/templates/dashboard/order/list.html:16
-#: ../flaskshop/templates/dashboard/user/detail.html:81
-#: ../flaskshop/templates/public/style_guide.html:723
+#: ../flaskshop/templates/dashboard/user/detail.html:89
+#: ../flaskshop/templates/public/style_guide.html:864
 msgid "Status"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/order.py:30
+#: ../flaskshop/dashboard/views/order.py:29
 #: ../flaskshop/templates/checkout/_subtotal_table.html:4
-#: ../flaskshop/templates/checkout/details.html:101
+#: ../flaskshop/templates/checkout/details.html:100
 #: ../flaskshop/templates/dashboard/order/detail.html:106
-#: ../flaskshop/templates/dashboard/user/detail.html:82
+#: ../flaskshop/templates/dashboard/user/detail.html:90
 #: ../flaskshop/templates/orders/_ordered_items_table.html:101
 msgid "Total"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/order.py:31
+#: ../flaskshop/dashboard/views/order.py:30
+#: ../flaskshop/dashboard/views/user.py:72
 msgid "User"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/order.py:32
-#: ../flaskshop/dashboard/views/product.py:67
-#: ../flaskshop/dashboard/views/product.py:110
-#: ../flaskshop/dashboard/views/product.py:155
-#: ../flaskshop/dashboard/views/site.py:26
+#: ../flaskshop/dashboard/views/order.py:31
+#: ../flaskshop/dashboard/views/product.py:73
+#: ../flaskshop/dashboard/views/product.py:92
+#: ../flaskshop/dashboard/views/product.py:158
+#: ../flaskshop/dashboard/views/site.py:27
 #: ../flaskshop/templates/dashboard/order/detail.html:14
-#: ../flaskshop/templates/dashboard/order/list.html:28
-#: ../flaskshop/templates/dashboard/user/detail.html:83
+#: ../flaskshop/templates/dashboard/order/list.html:30
+#: ../flaskshop/templates/dashboard/user/detail.html:91
 msgid "Created At"
 msgstr ""
 
+#: ../flaskshop/dashboard/views/order.py:50
+msgid "Order is sent."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/order.py:57
+msgid "Order is draft."
+msgstr ""
+
 #: ../flaskshop/dashboard/views/product.py:32
-#: ../flaskshop/templates/dashboard/product/detail.html:59
+#: ../flaskshop/templates/dashboard/product/detail.html:75
 msgid "ProductType"
 msgstr ""
 
@@ -678,109 +592,179 @@ msgstr ""
 msgid "Product Attribute"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/product.py:69
+#: ../flaskshop/dashboard/views/product.py:57
+msgid "Attribute saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:60
+msgid "Attribute"
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:76
 msgid "Product Collection"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/product.py:113
+#: ../flaskshop/dashboard/views/product.py:95
 msgid "Product Category"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/product.py:153
+#: ../flaskshop/dashboard/views/product.py:119
+msgid "Collection saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:142
+msgid "Category saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:156
 msgid "Has Variants"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/product.py:154
+#: ../flaskshop/dashboard/views/product.py:157
 msgid "Is Shipping Required"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/product.py:158
-#: ../flaskshop/templates/dashboard/product/product_type.html:15
+#: ../flaskshop/dashboard/views/product.py:161
+#: ../flaskshop/dashboard/views/product.py:195
 msgid "Product Type"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:29
+#: ../flaskshop/dashboard/views/product.py:192
+msgid "Product type saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:272
+msgid "Product saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:292
+msgid "Product Step 1"
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:310
+msgid "Variant saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/product.py:313
+msgid "Variant"
+msgstr ""
+
+#: ../flaskshop/dashboard/views/site.py:30
+#: ../flaskshop/dashboard/views/site.py:52
+#: ../flaskshop/templates/checkout/note.html:13
 #: ../flaskshop/templates/dashboard/order/detail.html:35
-#: ../flaskshop/templates/dashboard/site/shipping_method.html:15
 msgid "Shipping Method"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:61
-#: ../flaskshop/dashboard/views/site.py:110
+#: ../flaskshop/dashboard/views/site.py:49
+msgid "Shipping method saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/site.py:67
+#: ../flaskshop/dashboard/views/site.py:119
 msgid "Parent Id"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:64
+#: ../flaskshop/dashboard/views/site.py:70
 msgid "Site Menus"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:108
+#: ../flaskshop/dashboard/views/site.py:99
+#: ../flaskshop/dashboard/views/site.py:146
+msgid "Menu saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/site.py:103
+msgid "Site Menu"
+msgstr ""
+
+#: ../flaskshop/dashboard/views/site.py:117
 msgid "Endpoint"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:109
+#: ../flaskshop/dashboard/views/site.py:118
 msgid "Icon class"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:113
+#: ../flaskshop/dashboard/views/site.py:122
 msgid "Dashboard Menus"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:147
+#: ../flaskshop/dashboard/views/site.py:149
+msgid "Dashboard Menu"
+msgstr ""
+
+#: ../flaskshop/dashboard/views/site.py:164
 msgid "Is Visiable"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:150
+#: ../flaskshop/dashboard/views/site.py:167
 msgid "Site Pages"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:183
+#: ../flaskshop/dashboard/views/site.py:186
+msgid "Page saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/site.py:204
 msgid "The plugin is enabled, Please restart flask-shop now!"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:191
+#: ../flaskshop/dashboard/views/site.py:214
 msgid "The plugin is disabled, Please restart flask-shop now!"
 msgstr ""
 
-#: ../flaskshop/dashboard/views/site.py:219
+#: ../flaskshop/dashboard/views/site.py:243
 msgid "Settings saved."
 msgstr ""
 
-#: ../flaskshop/dashboard/views/user.py:28
-msgid "Is Active"
+#: ../flaskshop/dashboard/views/site.py:245
+msgid "Site Settings"
 msgstr ""
 
 #: ../flaskshop/dashboard/views/user.py:31
 msgid "User List"
 msgstr ""
 
-#: ../flaskshop/order/views.py:34
+#: ../flaskshop/dashboard/views/user.py:70
+msgid "User saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/user.py:84
+msgid "Address saved."
+msgstr ""
+
+#: ../flaskshop/dashboard/views/user.py:87
+msgid "User Address"
+msgstr ""
+
+#: ../flaskshop/order/views.py:35
 msgid "This is not your order!"
 msgstr ""
 
-#: ../flaskshop/order/views.py:41
+#: ../flaskshop/order/views.py:42
 msgid "This Order Can Not Pay"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:16
+#: ../flaskshop/templates/base.html:6
 msgid "flask store"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:48 ../flaskshop/templates/base.html:186
-#: ../flaskshop/templates/dashboard/layout.html:22
+#: ../flaskshop/templates/base.html:39 ../flaskshop/templates/base.html:180
+#: ../flaskshop/templates/dashboard/layout.html:26
 msgid "Dashboard"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:55
+#: ../flaskshop/templates/base.html:46
 msgid "Your Account"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:60
+#: ../flaskshop/templates/base.html:52
 msgid "Log Out"
 msgstr ""
 
 #: ../flaskshop/templates/account/login.html:15
-#: ../flaskshop/templates/base.html:66 ../flaskshop/templates/base.html:204
+#: ../flaskshop/templates/base.html:58 ../flaskshop/templates/base.html:198
 msgid "Register"
 msgstr ""
 
@@ -788,36 +772,41 @@ msgstr ""
 #: ../flaskshop/templates/account/login.html:21
 #: ../flaskshop/templates/account/partials/login_form.html:14
 #: ../flaskshop/templates/account/signup.html:13
-#: ../flaskshop/templates/base.html:71 ../flaskshop/templates/base.html:209
+#: ../flaskshop/templates/base.html:63 ../flaskshop/templates/base.html:203
 msgid "Log in"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:114 ../flaskshop/templates/base.html:179
+#: ../flaskshop/templates/base.html:97
+#: ../flaskshop/templates/public/search_result.html:21
+msgid "Search"
+msgstr ""
+
+#: ../flaskshop/templates/base.html:107 ../flaskshop/templates/base.html:173
 msgid "Your Cart"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:173
+#: ../flaskshop/templates/base.html:167
 #: ../flaskshop/templates/dashboard/order/detail.html:25
 msgid "Account"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:12
-#: ../flaskshop/templates/base.html:192
+#: ../flaskshop/templates/base.html:186
 #: ../flaskshop/templates/orders/details.html:17
 msgid "Your account"
 msgstr ""
 
-#: ../flaskshop/templates/base.html:198
+#: ../flaskshop/templates/base.html:192
 msgid "Log out"
 msgstr ""
 
 #: ../flaskshop/templates/account/address_edit.html:14
-#: ../flaskshop/templates/public/style_guide.html:612
+#: ../flaskshop/templates/public/style_guide.html:712
 msgid "Your profile"
 msgstr ""
 
 #: ../flaskshop/templates/account/address_edit.html:30
-#: ../flaskshop/templates/public/style_guide.html:617
+#: ../flaskshop/templates/public/style_guide.html:717
 msgid "Edit address"
 msgstr ""
 
@@ -825,14 +814,15 @@ msgstr ""
 msgid "New address"
 msgstr ""
 
-#: ../flaskshop/templates/account/address_edit.html:37
+#: ../flaskshop/templates/account/address_edit.html:38
 msgid "Save changes"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:9
+#: ../flaskshop/templates/category/index.html:6
 #: ../flaskshop/templates/checkout/cart.html:7
 #: ../flaskshop/templates/orders/details.html:12
-#: ../flaskshop/templates/public/page.html:13
+#: ../flaskshop/templates/products/details.html:13
 #: ../plugin_example/conversations/templates/message_layout.html:7
 msgid "Home"
 msgstr ""
@@ -842,34 +832,34 @@ msgid "My account"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:23
-#: ../flaskshop/templates/public/style_guide.html:668
+#: ../flaskshop/templates/public/style_guide.html:802
 msgid "Recent Orders"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:29
 #: ../flaskshop/templates/account/details.html:107
-#: ../flaskshop/templates/public/style_guide.html:673
+#: ../flaskshop/templates/public/style_guide.html:807
 msgid "Change password"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:35
-#: ../flaskshop/templates/public/style_guide.html:678
+#: ../flaskshop/templates/public/style_guide.html:812
 msgid "Addresses book"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:50
-#: ../flaskshop/templates/public/style_guide.html:717
+#: ../flaskshop/templates/public/style_guide.html:858
 msgid "Date"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:53
-#: ../flaskshop/templates/public/style_guide.html:720
+#: ../flaskshop/templates/public/style_guide.html:861
 msgid "Summary"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:80
-#: ../flaskshop/templates/public/style_guide.html:744
-#: ../flaskshop/templates/public/style_guide.html:765
+#: ../flaskshop/templates/public/style_guide.html:886
+#: ../flaskshop/templates/public/style_guide.html:908
 msgid "Details"
 msgstr ""
 
@@ -878,32 +868,24 @@ msgid "There are not any completed orders yet."
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:122
-#: ../flaskshop/templates/dashboard/discount/sale.html:13
-#: ../flaskshop/templates/dashboard/discount/voucher.html:14
-#: ../flaskshop/templates/dashboard/list.html:45
-#: ../flaskshop/templates/dashboard/product/attribute.html:14
+#: ../flaskshop/templates/dashboard/general_edit.html:13
+#: ../flaskshop/templates/dashboard/general_list.html:37
 #: ../flaskshop/templates/dashboard/product/category.html:14
 #: ../flaskshop/templates/dashboard/product/collection.html:14
-#: ../flaskshop/templates/dashboard/product/detail.html:16
-#: ../flaskshop/templates/dashboard/product/detail.html:110
-#: ../flaskshop/templates/dashboard/product/product_type.html:14
-#: ../flaskshop/templates/dashboard/product/variant.html:14
-#: ../flaskshop/templates/dashboard/site/shipping_method.html:14
-#: ../flaskshop/templates/dashboard/site/site_menu.html:14
+#: ../flaskshop/templates/dashboard/product/detail.html:127
 #: ../flaskshop/templates/dashboard/site/site_page.html:13
-#: ../flaskshop/templates/dashboard/user/detail.html:31
-#: ../flaskshop/templates/dashboard/user/detail.html:67
-#: ../flaskshop/templates/public/style_guide.html:791
+#: ../flaskshop/templates/dashboard/user/detail.html:34
+#: ../flaskshop/templates/public/style_guide.html:936
 msgid "Edit"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:135
-#: ../flaskshop/templates/public/style_guide.html:802
+#: ../flaskshop/templates/public/style_guide.html:950
 msgid "Remove Address"
 msgstr ""
 
 #: ../flaskshop/templates/account/details.html:138
-#: ../flaskshop/templates/public/style_guide.html:805
+#: ../flaskshop/templates/public/style_guide.html:953
 msgid "Cancel"
 msgstr ""
 
@@ -915,11 +897,16 @@ msgstr ""
 msgid "Don't have an account yet?"
 msgstr ""
 
-#: ../flaskshop/templates/account/reser_passwd_mail.html:42
+#: ../flaskshop/templates/account/login.html:23
+#: ../flaskshop/templates/account/partials/login_form.html:16
+msgid "Reset Password"
+msgstr ""
+
+#: ../flaskshop/templates/account/reset_passwd_mail.html:42
 msgid "You reset your password"
 msgstr ""
 
-#: ../flaskshop/templates/account/reser_passwd_mail.html:46
+#: ../flaskshop/templates/account/reset_passwd_mail.html:46
 msgid ""
 "We cannot simply send you your old password. A unique\n"
 "                                            password has been generated "
@@ -931,7 +918,7 @@ msgid "Already have an account?"
 msgstr ""
 
 #: ../flaskshop/templates/account/signup.html:20
-#: ../flaskshop/templates/account/signup.html:28
+#: ../flaskshop/templates/account/signup.html:29
 msgid "Create an account"
 msgstr ""
 
@@ -963,12 +950,12 @@ msgstr ""
 msgid "Checkout"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/cart.html:82
+#: ../flaskshop/templates/checkout/cart.html:83
 #: ../flaskshop/templates/public/cart_dropdown.html:55
 msgid "There are no products in your shopping cart."
 msgstr ""
 
-#: ../flaskshop/templates/checkout/cart.html:83
+#: ../flaskshop/templates/checkout/cart.html:84
 #: ../flaskshop/templates/public/cart_dropdown.html:57
 msgid "Check out our sales"
 msgstr ""
@@ -977,22 +964,30 @@ msgstr ""
 msgid "Easy and secure!"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/details.html:47
+#: ../flaskshop/templates/checkout/details.html:31
+msgid "Order review"
+msgstr ""
+
+#: ../flaskshop/templates/checkout/details.html:48
 #: ../flaskshop/templates/dashboard/order/detail.html:92
 #: ../flaskshop/templates/orders/_ordered_items_table.html:52
 msgid "Subtotal"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/details.html:57
+#: ../flaskshop/templates/checkout/details.html:58
 msgid "Shipment"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/details.html:72
+#: ../flaskshop/templates/checkout/details.html:73
 msgid "Promo code"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/details.html:78
+#: ../flaskshop/templates/checkout/details.html:79
 msgid "Remove"
+msgstr ""
+
+#: ../flaskshop/templates/checkout/details.html:91
+msgid "Use"
 msgstr ""
 
 #: ../flaskshop/templates/checkout/note.html:8
@@ -1009,110 +1004,123 @@ msgstr ""
 msgid "Select other shipping method"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/shipping.html:27
+#: ../flaskshop/templates/checkout/note.html:28
+msgid "ORDER & PAY"
+msgstr ""
+
+#: ../flaskshop/templates/checkout/shipping.html:26
 msgid "Enter a new address"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/shipping.html:42
+#: ../flaskshop/templates/checkout/shipping.html:41
 msgid "Shipping method"
 msgstr ""
 
-#: ../flaskshop/templates/checkout/shipping.html:60
+#: ../flaskshop/templates/checkout/shipping.html:58
 msgid "Continue"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/index.html:17
-msgid "Sales"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:18
-msgid "today and"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:19
-msgid "total"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:29
-msgid "Members"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:30
-msgid "new in"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:31
-msgid "accounts"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:43
-msgid "Orders are ready to fulfill"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:49
-msgid "Payments to capture"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:55
-msgid "products is on sale"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:64
-msgid "Top Products"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:82
-msgid "Ordered"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:98
-msgid "Activity"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:105
-msgid "was"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/index.html:110
-msgid "There is no recent activity"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/layout.html:25
-msgid "Front Site"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/discount/sale.html:13
-#: ../flaskshop/templates/dashboard/discount/voucher.html:14
-#: ../flaskshop/templates/dashboard/list.html:25
-#: ../flaskshop/templates/dashboard/product/attribute.html:14
+#: ../flaskshop/templates/dashboard/general_edit.html:15
+#: ../flaskshop/templates/dashboard/general_list.html:16
 #: ../flaskshop/templates/dashboard/product/category.html:14
 #: ../flaskshop/templates/dashboard/product/collection.html:14
-#: ../flaskshop/templates/dashboard/product/detail.html:87
-#: ../flaskshop/templates/dashboard/product/list.html:45
-#: ../flaskshop/templates/dashboard/product/product_type.html:14
-#: ../flaskshop/templates/dashboard/product/variant.html:14
-#: ../flaskshop/templates/dashboard/site/shipping_method.html:14
-#: ../flaskshop/templates/dashboard/site/site_menu.html:14
-#: ../flaskshop/templates/dashboard/site/site_page.html:14
+#: ../flaskshop/templates/dashboard/product/detail.html:104
+#: ../flaskshop/templates/dashboard/product/list.html:54
 msgid "Create"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/list.html:36
-#: ../flaskshop/templates/dashboard/order/list.html:44
-#: ../flaskshop/templates/dashboard/product/detail.html:99
-#: ../flaskshop/templates/dashboard/product/list.html:58
-#: ../flaskshop/templates/dashboard/site/plugin.html:17
-#: ../flaskshop/templates/dashboard/user/detail.html:58
-#: ../flaskshop/templates/dashboard/user/detail.html:84
-#: ../flaskshop/templates/dashboard/user/list.html:35
+#: ../flaskshop/templates/dashboard/general_edit.html:17
+#, python-format
+msgid "%(title)s"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/general_list.html:27
+#: ../flaskshop/templates/dashboard/order/list.html:50
+#: ../flaskshop/templates/dashboard/product/detail.html:116
+#: ../flaskshop/templates/dashboard/product/list.html:67
+#: ../flaskshop/templates/dashboard/site/plugin.html:18
+#: ../flaskshop/templates/dashboard/user/detail.html:65
+#: ../flaskshop/templates/dashboard/user/detail.html:92
+#: ../flaskshop/templates/dashboard/user/list.html:32
 msgid "Operation"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/list.html:47
-#: ../flaskshop/templates/dashboard/product/detail.html:18
-#: ../flaskshop/templates/dashboard/product/detail.html:112
-#: ../flaskshop/templates/dashboard/user/detail.html:33
+#: ../flaskshop/templates/dashboard/general_list.html:41
+#: ../flaskshop/templates/dashboard/product/detail.html:23
+#: ../flaskshop/templates/dashboard/user/detail.html:39
 msgid "Delete"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:14
+msgid "Sales"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:15
+msgid ""
+"today\n"
+"                                        and"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:17
+msgid "total"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:25
+msgid "Members"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:26
+msgid "new in"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:28
+msgid "accounts"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:38
+msgid ""
+"Orders are ready to\n"
+"                                            fulfill"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:45
+msgid ""
+"Payments to\n"
+"                                            capture"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:52
+msgid ""
+"products is on\n"
+"                                            sale"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:62
+msgid "Top Products"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:79
+msgid "Ordered"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:91
+msgid "Activity"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:98
+msgid "was"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/index.html:103
+msgid ""
+"There is no recent\n"
+"                                            activity"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/layout.html:29
+msgid ""
+"Front\n"
+"                        Site"
 msgstr ""
 
 #: ../flaskshop/templates/dashboard/order/detail.html:23
@@ -1164,72 +1172,95 @@ msgstr ""
 msgid "Draft Order"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/order/list.html:10
+#: ../flaskshop/templates/dashboard/order/list.html:11
 msgid "Order List"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/order/list.html:24
+#: ../flaskshop/templates/dashboard/order/list.html:17
+msgid ""
+"\n"
+"                                                    Status"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/order/list.html:26
 msgid "Order No."
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/order/list.html:31
-#: ../flaskshop/templates/dashboard/product/list.html:41
-msgid "Query"
+#: ../flaskshop/templates/dashboard/order/list.html:34
+msgid "Ended At"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/order/list.html:53
-#: ../flaskshop/templates/dashboard/product/list.html:67
-#: ../flaskshop/templates/dashboard/user/detail.html:92
-#: ../flaskshop/templates/dashboard/user/list.html:44
+#: ../flaskshop/templates/dashboard/order/list.html:37
+#: ../flaskshop/templates/dashboard/product/list.html:49
+msgid ""
+"\n"
+"                                                Query"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/order/list.html:59
+#: ../flaskshop/templates/dashboard/product/list.html:78
+#: ../flaskshop/templates/dashboard/user/list.html:42
 msgid "View"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/detail.html:62
+#: ../flaskshop/templates/dashboard/product/detail.html:17
+msgid ""
+"\n"
+"                                    Edit"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/product/detail.html:79
 msgid "Created"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/detail.html:68
+#: ../flaskshop/templates/dashboard/product/detail.html:86
 msgid "Product Description"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/detail.html:83
+#: ../flaskshop/templates/dashboard/product/detail.html:100
 msgid "Variants"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/detail.html:98
+#: ../flaskshop/templates/dashboard/product/detail.html:115
 msgid "PriceOverride"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/list.html:12
+#: ../flaskshop/templates/dashboard/product/detail.html:131
+msgid ""
+"\n"
+"                                                Delete"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/product/list.html:11
 msgid "Product List "
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/list.html:20
+#: ../flaskshop/templates/dashboard/product/list.html:17
+msgid ""
+"On\n"
+"                                                    Sale"
+msgstr ""
+
+#: ../flaskshop/templates/dashboard/product/list.html:19
 msgid "Yes"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/list.html:21
+#: ../flaskshop/templates/dashboard/product/list.html:20
 msgid "No"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/product_create_step1.html:14
-msgid "Create Product Step First"
+#: ../flaskshop/templates/dashboard/product/list.html:25
+msgid ""
+"\n"
+"                                                    Category"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/product_create_step2.html:12
-msgid "Create Product Step 2"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/product/product_edit.html:14
+#: ../flaskshop/templates/dashboard/product/product.html:13
 msgid "Edit Product"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/product/variant.html:15
-msgid "Variant"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/site/dashboard_menu.html:14
-msgid "Create Dashboard Menu"
+#: ../flaskshop/templates/dashboard/product/product.html:13
+msgid "Create Product Step 2"
 msgstr ""
 
 #: ../flaskshop/templates/dashboard/site/index.html:7
@@ -1296,60 +1327,84 @@ msgstr ""
 msgid "View and update your site settings"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/plugin.html:9
+#: ../flaskshop/templates/dashboard/site/plugin.html:10
 msgid "Manage Plugins"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/plugin.html:15
+#: ../flaskshop/templates/dashboard/site/plugin.html:16
 msgid "Plugin"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/plugin.html:16
+#: ../flaskshop/templates/dashboard/site/plugin.html:17
 msgid "Info"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/plugin.html:32
+#: ../flaskshop/templates/dashboard/site/plugin.html:33
 msgid "Disable"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/plugin.html:37
+#: ../flaskshop/templates/dashboard/site/plugin.html:38
 msgid "Enable"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/settings.html:13
-msgid "Site Settings"
+#: ../flaskshop/templates/dashboard/site/site_page.html:13
+msgid ""
+"Create\n"
+"                                "
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/site/settings.html:29
-msgid "Save"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/site/site_menu.html:14
-msgid "Site Menu"
-msgstr ""
-
-#: ../flaskshop/templates/dashboard/user/detail.html:45
+#: ../flaskshop/templates/dashboard/user/detail.html:50
 msgid "Addresses"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/user/detail.html:46
-msgid "Orders"
+#: ../flaskshop/templates/dashboard/user/detail.html:52
+msgid ""
+"\n"
+"                                    Orders"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/user/detail.html:72
-msgid "This user have not add address"
+#: ../flaskshop/templates/dashboard/user/detail.html:74
+msgid ""
+"\n"
+"                                                        Edit"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/user/detail.html:99
-msgid "This user have not create orders"
+#: ../flaskshop/templates/dashboard/user/detail.html:80
+msgid ""
+"This user have not add\n"
+"                                            address"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/user/edit.html:13
-msgid "Edit User"
+#: ../flaskshop/templates/dashboard/user/detail.html:102
+msgid ""
+"\n"
+"                                                        View"
 msgstr ""
 
-#: ../flaskshop/templates/dashboard/user/edit_addr.html:13
-msgid "Edit User Address"
+#: ../flaskshop/templates/dashboard/user/detail.html:110
+msgid ""
+"This user have not create\n"
+"                                            orders"
+msgstr ""
+
+#: ../flaskshop/templates/errors/401.html:3
+msgid "Unauthorized"
+msgstr ""
+
+#: ../flaskshop/templates/errors/401.html:9
+msgid "You are not authorized to see this page. Please "
+msgstr ""
+
+#: ../flaskshop/templates/errors/401.html:10
+msgid "log in"
+msgstr ""
+
+#: ../flaskshop/templates/errors/401.html:10
+msgid " or"
+msgstr ""
+
+#: ../flaskshop/templates/errors/401.html:11
+msgid "create a new account"
 msgstr ""
 
 #: ../flaskshop/templates/errors/404.html:4
@@ -1370,6 +1425,17 @@ msgstr ""
 
 #: ../flaskshop/templates/errors/404.html:11
 msgid "instead"
+msgstr ""
+
+#: ../flaskshop/templates/errors/500.html:3
+msgid "Server error"
+msgstr ""
+
+#: ../flaskshop/templates/errors/500.html:9
+msgid ""
+"Sorry, something went wrong on our system. Don't panic, we are fixing it!"
+" Please try again\n"
+"            later."
 msgstr ""
 
 #: ../flaskshop/templates/orders/_ordered_items_table.html:124
@@ -1432,54 +1498,50 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: ../flaskshop/templates/products/details.html:102
+#: ../flaskshop/templates/products/details.html:109
 msgid "Please choose a variant!"
 msgstr ""
 
-#: ../flaskshop/templates/products/details.html:119
+#: ../flaskshop/templates/products/details.html:126
 msgid "Add to cart"
 msgstr ""
 
-#: ../flaskshop/templates/products/details.html:131
+#: ../flaskshop/templates/products/details.html:138
 msgid "This product is currently"
 msgstr ""
 
-#: ../flaskshop/templates/products/details.html:131
+#: ../flaskshop/templates/products/details.html:138
 msgid "unavailable"
 msgstr ""
 
-#: ../flaskshop/templates/products/product_list_base.html:45
-#: ../flaskshop/templates/public/style_guide.html:417
+#: ../flaskshop/templates/products/product_list_base.html:42
+#: ../flaskshop/templates/public/style_guide.html:457
 msgid "Filters"
 msgstr ""
 
-#: ../flaskshop/templates/products/product_list_base.html:53
-#: ../flaskshop/templates/products/product_list_base.html:55
-#: ../flaskshop/templates/products/product_list_base.html:72
+#: ../flaskshop/templates/products/product_list_base.html:50
+#: ../flaskshop/templates/products/product_list_base.html:52
+#: ../flaskshop/templates/products/product_list_base.html:69
 msgid "Sort by"
 msgstr ""
 
-#: ../flaskshop/templates/products/product_list_base.html:78
+#: ../flaskshop/templates/products/product_list_base.html:75
 msgid "ascending"
 msgstr ""
 
-#: ../flaskshop/templates/products/product_list_base.html:85
+#: ../flaskshop/templates/products/product_list_base.html:82
 msgid "descending"
 msgstr ""
 
-#: ../flaskshop/templates/products/product_list_base.html:119
+#: ../flaskshop/templates/products/product_list_base.html:117
 #: ../flaskshop/templates/public/search_result.html:23
 msgid "Sorry, no matches found for your request."
 msgstr ""
 
-#: ../flaskshop/templates/products/product_list_base.html:120
+#: ../flaskshop/templates/products/product_list_base.html:118
 #: ../flaskshop/templates/public/search_result.html:24
 msgid "Try again or shop new arrivals."
 msgstr ""
-
-#: ../flaskshop/templates/public/home.html:11
-msgid "Apparel"
-msgstr "服饰"
 
 #: ../flaskshop/templates/public/home.html:11
 msgid "Promo & Sale"
@@ -1497,7 +1559,7 @@ msgstr ""
 
 #: ../flaskshop/templates/public/home.html:28
 msgid "Size & Colours"
-msgstr "尺寸和颜色"
+msgstr ""
 
 #: ../flaskshop/templates/public/home.html:40
 msgid "Digital Downloads"
@@ -1505,6 +1567,10 @@ msgstr ""
 
 #: ../flaskshop/templates/public/home.html:50
 msgid "Featured products"
+msgstr ""
+
+#: ../flaskshop/templates/public/page.html:13
+msgid "首页"
 msgstr ""
 
 #: ../flaskshop/templates/public/page.html:27
@@ -1517,462 +1583,530 @@ msgstr ""
 
 #: ../flaskshop/templates/public/search_result.html:3
 msgid "Search results"
-msgstr "搜索结果"
+msgstr ""
 
-#: ../flaskshop/templates/public/search_result.html:21
-msgid "Search"
-msgstr "搜索"
-
-#: ../flaskshop/templates/public/style_guide.html:13
+#: ../flaskshop/templates/public/style_guide.html:17
 msgid "Style guide"
-msgstr "风格指南"
-
-#: ../flaskshop/templates/public/style_guide.html:23
-#: ../flaskshop/templates/public/style_guide.html:45
-msgid "Typography"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:24
-#: ../flaskshop/templates/public/style_guide.html:80
-msgid "Colors"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:25
-msgid "Grid"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:26
-#: ../flaskshop/templates/public/style_guide.html:198
-msgid "Responsive breakpoints"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:27
-msgid "Helper classes"
+#: ../flaskshop/templates/public/style_guide.html:49
+msgid "Typography"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:28
-#: ../flaskshop/templates/public/style_guide.html:334
-msgid "Icons"
+#: ../flaskshop/templates/public/style_guide.html:95
+msgid "Colors"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:29
-msgid "Buttons"
+msgid "Grid"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:30
-#: ../flaskshop/templates/public/style_guide.html:395
-msgid "Forms"
+msgid "Responsive breakpoints"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:31
-#: ../flaskshop/templates/public/style_guide.html:588
-msgid "Pagination"
+msgid "Helper classes"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:32
-msgid "Breadcrumbs"
+#: ../flaskshop/templates/public/style_guide.html:367
+msgid "Icons"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:33
-#: ../flaskshop/templates/public/style_guide.html:624
-msgid "Notifications"
+msgid "Buttons"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:34
-#: ../flaskshop/templates/public/style_guide.html:644
-msgid "Main navigation"
+#: ../flaskshop/templates/public/style_guide.html:431
+msgid "Forms"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:35
-msgid "Tabs"
+#: ../flaskshop/templates/public/style_guide.html:674
+msgid "Pagination"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:36
-msgid "Tables"
+msgid "Breadcrumbs"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:37
-msgid "Cards"
+#: ../flaskshop/templates/public/style_guide.html:724
+msgid "Notifications"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:38
-msgid "Product items"
+#: ../flaskshop/templates/public/style_guide.html:747
+msgid "Main navigation"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:39
-#: ../flaskshop/templates/public/style_guide.html:852
+msgid "Tabs"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:40
+msgid "Tables"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:41
+msgid "Cards"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:42
+msgid "Product items"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:43
+#: ../flaskshop/templates/public/style_guide.html:1008
 msgid "Product gallery"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:47
+#: ../flaskshop/templates/public/style_guide.html:51
 msgid "We use Lato fontface in Regular(400),"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:48
+#: ../flaskshop/templates/public/style_guide.html:53
 msgid "and"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:48
-msgid "Bold(700)"
+#: ../flaskshop/templates/public/style_guide.html:53
+msgid ""
+"\n"
+"                            Bold(700)"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:48
+#: ../flaskshop/templates/public/style_guide.html:54
 msgid "weights"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:49
+#: ../flaskshop/templates/public/style_guide.html:55
 msgid ""
 "Lato includes only latin and latin extended characters. For other "
-"alphabets the default sans serif font\n"
-"              will be used."
+"alphabets the\n"
+"                                default sans\n"
+"                                serif font\n"
+"                                will be used."
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:52
-#: ../flaskshop/templates/public/style_guide.html:708
-#: ../flaskshop/templates/public/style_guide.html:775
-#: ../flaskshop/templates/public/style_guide.html:817
+#: ../flaskshop/templates/public/style_guide.html:60
+#: ../flaskshop/templates/public/style_guide.html:847
+#: ../flaskshop/templates/public/style_guide.html:918
+#: ../flaskshop/templates/public/style_guide.html:965
 msgid ""
 "Click and edit any text below to see how the component looks with "
-"different text"
+"different\n"
+"                            text"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:53
+#: ../flaskshop/templates/public/style_guide.html:63
 msgid "Headers"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:57
+#: ../flaskshop/templates/public/style_guide.html:67
 msgid "H1 example text"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:58
+#: ../flaskshop/templates/public/style_guide.html:68
 msgid "H2 example text"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:59
+#: ../flaskshop/templates/public/style_guide.html:69
 msgid "H3 example text (always uppercased)"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:62
+#: ../flaskshop/templates/public/style_guide.html:72
 msgid "Paragraph"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:65
+#: ../flaskshop/templates/public/style_guide.html:75
 msgid ""
-"Saleor is open and free to use. It is not a bait to force you to pay us "
-"later and\n"
-"              we promise to do our bests to fix bugs and improve the "
-"code. Some situations however call for a custom\n"
-"              solution and extra code to be written. Whether you need us "
-"to cover an exotic use case or build you a\n"
-"              custom e-commerce appliance, our team can help."
+"Saleor is open and free to use. It is not a bait to force\n"
+"                            you to pay us\n"
+"                            later and\n"
+"                            we promise to do our bests to fix bugs and "
+"improve the code. Some situations however call\n"
+"                            for a custom\n"
+"                            solution and extra code to be written. "
+"Whether you need us to cover an exotic use case or\n"
+"                            build you a\n"
+"                            custom e-commerce appliance, our team can "
+"help."
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:71
+#: ../flaskshop/templates/public/style_guide.html:85
 msgid "Links"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:74
+#: ../flaskshop/templates/public/style_guide.html:88
 msgid "Link example text"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:75
-msgid "Styled link example text"
+#: ../flaskshop/templates/public/style_guide.html:89
+msgid ""
+"Styled link example\n"
+"                            text"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:154
+#: ../flaskshop/templates/public/style_guide.html:169
 msgid "We use"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:155
+#: ../flaskshop/templates/public/style_guide.html:171
 msgid ""
 "responsive grid which is based on a 12 column layout. In most cases we "
-"use following combinations"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:206
-msgid "Max container width"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:209
-msgid "Class prefix"
+"use\n"
+"                            following\n"
+"                            combinations"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:216
+msgid ""
+"Responsive\n"
+"                            breakpoints"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:225
+msgid "Max container width"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:228
+msgid "Class prefix"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:235
 msgid "Extra small"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:219
+#: ../flaskshop/templates/public/style_guide.html:239
 msgid "None (auto)"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:229
+#: ../flaskshop/templates/public/style_guide.html:249
 msgid "Small"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:242
+#: ../flaskshop/templates/public/style_guide.html:262
 msgid "Medium"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:255
+#: ../flaskshop/templates/public/style_guide.html:275
 msgid "Large"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:268
+#: ../flaskshop/templates/public/style_guide.html:288
 msgid "Extra large"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:283
+#: ../flaskshop/templates/public/style_guide.html:303
 msgid "Storefront templates built with"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:285
+#: ../flaskshop/templates/public/style_guide.html:305
 msgid "framework wich has handful utility classes"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:286
+#: ../flaskshop/templates/public/style_guide.html:306
 msgid "Responsive floats"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:291
-msgid "Float left on all viewport sizes"
+#: ../flaskshop/templates/public/style_guide.html:311
+msgid ""
+"Float left on all viewport\n"
+"                                sizes"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:297
-msgid "Float right on all viewport sizes"
+#: ../flaskshop/templates/public/style_guide.html:318
+msgid ""
+"Float right on all viewport\n"
+"                                sizes"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:303
-msgid "Don't float on all viewport sizes"
+#: ../flaskshop/templates/public/style_guide.html:325
+msgid ""
+"Don't float on all viewport\n"
+"                                sizes"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:309
-msgid "Float left on viewports sized SM (small) or wider"
+#: ../flaskshop/templates/public/style_guide.html:332
+msgid ""
+"Float left on viewports sized\n"
+"                                SM (small) or\n"
+"                                wider"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:315
-msgid "Float right on viewports sized MD (medium) or wider"
+#: ../flaskshop/templates/public/style_guide.html:340
+msgid ""
+"Float right on viewports sized\n"
+"                                MD (medium) or\n"
+"                                wider"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:321
+#: ../flaskshop/templates/public/style_guide.html:348
 msgid "Responsive utilities"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:324
-msgid ""
-"The <code>.hidden-*-up</code> classes hide the element when the viewport "
-"is at the given breakpoint or\n"
-"              wider. For example, <code>.hidden-md-up</code> hides an "
-"element on medium, large, and extra-large\n"
-"              viewports."
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:327
-msgid ""
-"The <code>.hidden-*-down</code> classes hide the element when the "
-"viewport is at the given breakpoint or\n"
-"              smaller. For example, <code>.hidden-md-down</code> hides an"
-" element on extra-small, small, and medium\n"
-"              viewports."
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:351
 msgid ""
-"Click and edit any button below to see how the component looks with "
-"different text"
+"The <code>.hidden-*-up</code> classes hide the element when the viewport "
+"is at the\n"
+"                            given\n"
+"                            breakpoint or\n"
+"                            wider. For example, <code>.hidden-md-"
+"up</code> hides an element on medium, large, and\n"
+"                            extra-large\n"
+"                            viewports."
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:355
-msgid "Primary Button (buttons can be really very wide)"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:358
-msgid "Secondary Button"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:361
-msgid "Danger Button"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:364
-msgid "Disabled Button"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:367
-msgid "Gray Button"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:370
-msgid "Primary Narrow Button"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:373
-msgid "Secondary Narrow Button"
-msgstr ""
-
-#: ../flaskshop/templates/public/style_guide.html:376
-msgid "Danger Narrow Button"
+#: ../flaskshop/templates/public/style_guide.html:357
+msgid ""
+"The <code>.hidden-*-down</code> classes hide the element when the "
+"viewport is at\n"
+"                            the given\n"
+"                            breakpoint or\n"
+"                            smaller. For example, <code>.hidden-md-"
+"down</code> hides an element on extra-small, small,\n"
+"                            and medium\n"
+"                            viewports."
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:384
-msgid "Home page button"
+msgid ""
+"Click and edit any button below to see how the component looks with "
+"different\n"
+"                            text"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:389
+msgid ""
+"Primary Button (buttons can be really very\n"
+"                  wide)"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:393
+msgid "Secondary Button"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:396
-msgid "Text form"
+msgid "Danger Button"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:399
+msgid "Disabled Button"
 msgstr ""
 
 #: ../flaskshop/templates/public/style_guide.html:402
-msgid "Given name"
+msgid "Gray Button"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:409
-msgid "Family name"
+#: ../flaskshop/templates/public/style_guide.html:405
+msgid "Primary Narrow Button"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:424
+#: ../flaskshop/templates/public/style_guide.html:408
+msgid "Secondary Narrow Button"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:411
+msgid "Danger Narrow Button"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:419
+msgid ""
+"Home page\n"
+"                                                    button"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:432
+msgid "Text form"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:438
+msgid ""
+"Given\n"
+"                                        name"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:447
+msgid ""
+"Family\n"
+"                                        name"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:466
 msgid "Box Size"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:431
-#: ../flaskshop/templates/public/style_guide.html:527
+#: ../flaskshop/templates/public/style_guide.html:480
+#: ../flaskshop/templates/public/style_guide.html:603
 msgid "100g"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:433
-#: ../flaskshop/templates/public/style_guide.html:530
+#: ../flaskshop/templates/public/style_guide.html:487
+#: ../flaskshop/templates/public/style_guide.html:606
 msgid "250g"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:435
+#: ../flaskshop/templates/public/style_guide.html:494
 msgid "500g"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:436
-msgid "Feel free to place here as long option as you want"
+#: ../flaskshop/templates/public/style_guide.html:501
+msgid ""
+"Feel free to place here as long option as you\n"
+"                                                                    want"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:445
+#: ../flaskshop/templates/public/style_guide.html:515
 msgid "Select"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:452
-#: ../flaskshop/templates/public/style_guide.html:453
-#: ../flaskshop/templates/public/style_guide.html:454
-#: ../flaskshop/templates/public/style_guide.html:455
+#: ../flaskshop/templates/public/style_guide.html:522
+#: ../flaskshop/templates/public/style_guide.html:523
+#: ../flaskshop/templates/public/style_guide.html:524
+#: ../flaskshop/templates/public/style_guide.html:525
 msgid "Option"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:462
+#: ../flaskshop/templates/public/style_guide.html:532
 msgid "Number input"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:476
+#: ../flaskshop/templates/public/style_guide.html:547
 msgid "Radio buttons"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:484
-#: ../flaskshop/templates/public/style_guide.html:559
+#: ../flaskshop/templates/public/style_guide.html:555
+#: ../flaskshop/templates/public/style_guide.html:641
 msgid "First option"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:490
-#: ../flaskshop/templates/public/style_guide.html:533
-#: ../flaskshop/templates/public/style_guide.html:565
-msgid "Feel free to place here as long text as you want"
+#: ../flaskshop/templates/public/style_guide.html:561
+#: ../flaskshop/templates/public/style_guide.html:647
+msgid ""
+"Feel free to place here as long text as\n"
+"                                            you want"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:497
+#: ../flaskshop/templates/public/style_guide.html:569
 msgid "Input groups"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:516
-msgid "Use"
+#: ../flaskshop/templates/public/style_guide.html:591
+msgid ""
+"\n"
+"                                        Use"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:522
+#: ../flaskshop/templates/public/style_guide.html:598
 msgid "Variant picker"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:537
+#: ../flaskshop/templates/public/style_guide.html:609
+msgid ""
+"Feel free to place here as long\n"
+"                                text as you want"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:614
 msgid "Errors"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:538
+#: ../flaskshop/templates/public/style_guide.html:615
 msgid ""
 "Errors are always displayed as a small red text below the form explaining"
-" what cause the error."
+" what\n"
+"                            cause the\n"
+"                            error."
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:548
-#: ../flaskshop/templates/public/style_guide.html:569
+#: ../flaskshop/templates/public/style_guide.html:629
+#: ../flaskshop/templates/public/style_guide.html:652
 msgid "This field is required"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:555
+#: ../flaskshop/templates/public/style_guide.html:637
 msgid "Radio form"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:580
+#: ../flaskshop/templates/public/style_guide.html:665
 msgid "Only 32 remaining in stock"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:589
-#: ../flaskshop/templates/public/style_guide.html:602
-#: ../flaskshop/templates/public/style_guide.html:625
-#: ../flaskshop/templates/public/style_guide.html:645
+#: ../flaskshop/templates/public/style_guide.html:675
+#: ../flaskshop/templates/public/style_guide.html:700
+#: ../flaskshop/templates/public/style_guide.html:725
+#: ../flaskshop/templates/public/style_guide.html:748
 msgid ""
 "Click and edit any item below to see how the component looks with "
-"different text"
+"different\n"
+"                            text"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:630
+#: ../flaskshop/templates/public/style_guide.html:731
 msgid "This is Success alert"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:634
+#: ../flaskshop/templates/public/style_guide.html:735
 msgid "This is Danger alert"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:638
+#: ../flaskshop/templates/public/style_guide.html:739
 msgid ""
-"This is Warning alert. Notifications content is not limited with "
-"container width. Place here as many information as you want or need to"
+"This is Warning alert. Notifications content is not limited with\n"
+"                  container width. Place here as many information as you "
+"want or need to"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:662
+#: ../flaskshop/templates/public/style_guide.html:796
 msgid "Tabs navigation"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:740
-msgid "Payment pending"
+#: ../flaskshop/templates/public/style_guide.html:881
+msgid ""
+"Payment\n"
+"                      pending"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:761
-msgid "Fully paid"
+#: ../flaskshop/templates/public/style_guide.html:903
+msgid ""
+"Fully\n"
+"                                        paid"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:782
+#: ../flaskshop/templates/public/style_guide.html:927
 msgid "Mr. Walter C. Brown"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:783
+#: ../flaskshop/templates/public/style_guide.html:928
 msgid "49 Featherstone Street"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:784
+#: ../flaskshop/templates/public/style_guide.html:929
 msgid "London, EC1Y 8SY"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:786
+#: ../flaskshop/templates/public/style_guide.html:931
 msgid "United Kingdom"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:825
-#: ../flaskshop/templates/public/style_guide.html:836
-msgid "Johnson-Brown"
+#: ../flaskshop/templates/public/style_guide.html:976
+#: ../flaskshop/templates/public/style_guide.html:990
+msgid ""
+"\n"
+"                                            Johnson-Brown"
 msgstr ""
 
-#: ../flaskshop/templates/public/style_guide.html:843
+#: ../flaskshop/templates/public/style_guide.html:996
+msgid ""
+"\n"
+"                                                Sale"
+msgstr ""
+
+#: ../flaskshop/templates/public/style_guide.html:999
 msgid "FROM"
 msgstr ""
 
@@ -1980,49 +2114,49 @@ msgstr ""
 msgid "Recipient"
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:14
+#: ../plugin_example/conversations/forms.py:16
 msgid "A valid username is required."
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:18
-#: ../plugin_example/conversations/templates/conversation.html:252
+#: ../plugin_example/conversations/forms.py:21
+#: ../plugin_example/conversations/templates/conversation.html:259
 msgid "Subject"
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:18
+#: ../plugin_example/conversations/forms.py:22
 msgid "A Subject is required."
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:22
-#: ../plugin_example/conversations/forms.py:53
+#: ../plugin_example/conversations/forms.py:26
+#: ../plugin_example/conversations/forms.py:60
 msgid "Message"
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:22
-#: ../plugin_example/conversations/forms.py:53
+#: ../plugin_example/conversations/forms.py:27
+#: ../plugin_example/conversations/forms.py:61
 msgid "A message is required."
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:28
+#: ../plugin_example/conversations/forms.py:34
 msgid "The username you entered does not exist."
 msgstr ""
 
-#: ../plugin_example/conversations/forms.py:30
+#: ../plugin_example/conversations/forms.py:37
 msgid "You cannot send a PM to yourself."
 msgstr ""
 
-#: ../plugin_example/conversations/views.py:34
+#: ../plugin_example/conversations/views.py:36
 msgid ""
 "You cannot send any messages anymore because you have reached your "
 "message limit."
 msgstr ""
 
 #: ../plugin_example/conversations/templates/message_form.html:3
-#: ../plugin_example/conversations/views.py:145
+#: ../plugin_example/conversations/views.py:148
 msgid "Compose Message"
 msgstr ""
 
-#: ../plugin_example/conversations/views.py:177
+#: ../plugin_example/conversations/views.py:181
 msgid "Message sent."
 msgstr ""
 
@@ -2037,11 +2171,11 @@ msgid "No unread messages."
 msgstr ""
 
 #: ../plugin_example/conversations/templates/_inject_navlink.html:19
-#: ../plugin_example/conversations/templates/message_layout.html:20
+#: ../plugin_example/conversations/templates/message_layout.html:35
 msgid "New Message"
 msgstr ""
 
-#: ../plugin_example/conversations/templates/conversation.html:304
+#: ../plugin_example/conversations/templates/conversation.html:311
 msgid "Send"
 msgstr ""
 
@@ -2085,3 +2219,4 @@ msgstr ""
 #: ../plugin_example/conversations/templates/trash.html:3
 msgid "Trash"
 msgstr ""
+
